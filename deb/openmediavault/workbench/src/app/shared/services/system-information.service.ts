@@ -64,8 +64,13 @@ export class SystemInformationService implements OnDestroy {
         // Request the system information via HTTP. Execute the RPC only
         // after the previous one has been completed.
         exhaustMap(() =>
+
           this.rpcService
-            .request('System', 'getInformation', null, { updatelastaccess: false })
+            .request(
+              'System',
+              'getInformation',
+               null,
+               { updatelastaccess: false })
             .pipe(
               catchError((error) => {
                 // Do not show an error notification.

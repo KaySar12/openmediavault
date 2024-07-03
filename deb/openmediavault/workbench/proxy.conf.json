@@ -1,16 +1,16 @@
 {
   "/download.php": {
-    "target": "http://omv7box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/rpc.php": {
-    "target": "http://omv7box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/assets/**/*.json": {
-    "target": "http://omv7box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   }
