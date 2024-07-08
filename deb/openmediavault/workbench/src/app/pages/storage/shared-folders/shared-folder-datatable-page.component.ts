@@ -40,7 +40,8 @@ export class SharedFolderDatatablePageComponent {
       proxy: {
         service: 'ShareMgmt',
         get: {
-          method: 'getList'
+          method: 'getList',
+          params:{}
         }
       },
       transform: {

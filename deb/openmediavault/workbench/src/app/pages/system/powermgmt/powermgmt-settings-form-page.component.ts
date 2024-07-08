@@ -29,10 +29,12 @@ export class PowermgmtSettingsFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'PowerMgmt',
       get: {
-        method: 'get'
+        method: 'get',
+        params:{}
       },
       post: {
-        method: 'set'
+        method: 'set',
+        params:{}
       }
     },
     fields: [
@@ -68,7 +70,8 @@ export class PowermgmtSettingsFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'PowerMgmt',
             get: {
-              method: 'enumerateStandbyModes'
+              method: 'enumerateStandbyModes',
+              params:{}
             }
           },
           sorters: [

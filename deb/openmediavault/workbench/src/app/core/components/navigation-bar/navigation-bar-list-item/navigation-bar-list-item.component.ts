@@ -80,6 +80,7 @@ export class NavigationBarListItemComponent implements OnInit {
   }
 
   onClick(item: NavigationBarListItem) {
+    debugger;
     if (item.children && item.children.length > 0) {
       item.expanded = !item.expanded;
     }

@@ -107,7 +107,8 @@ export class SharedFolderAllSnapshotsTabsPageComponent {
             proxy: {
               service: 'ShareMgmt',
               get: {
-                method: 'enumerateAllSnapshots'
+                method: 'enumerateAllSnapshots',
+                params: {},
               }
             }
           },
@@ -230,7 +231,8 @@ export class SharedFolderAllSnapshotsTabsPageComponent {
             proxy: {
               service: 'ShareMgmt',
               get: {
-                method: 'enumerateAllScheduledSnapshotTasks'
+                method: 'enumerateAllScheduledSnapshotTasks',
+                params: {}
               }
             }
           },
@@ -271,10 +273,12 @@ export class SharedFolderAllSnapshotsTabsPageComponent {
           request: {
             service: 'ShareMgmt',
             get: {
-              method: 'getSnapshotLifecycle'
+              method: 'getSnapshotLifecycle',
+              params: {}
             },
             post: {
-              method: 'setSnapshotLifecycle'
+              method: 'setSnapshotLifecycle',
+              params: {}
             }
           },
           fields: [

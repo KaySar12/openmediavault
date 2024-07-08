@@ -178,7 +178,7 @@ export class DatatablePageComponent extends AbstractPageComponent<DatatablePageC
                 this.rpcService[request.task ? 'requestTask' : 'request'](
                   request.service,
                   request.method,
-                  params
+                  params || {}
                 )
               );
             });
@@ -188,7 +188,7 @@ export class DatatablePageComponent extends AbstractPageComponent<DatatablePageC
               this.rpcService[request.task ? 'requestTask' : 'request'](
                 request.service,
                 request.method,
-                params
+                params || {}
               )
             );
           }

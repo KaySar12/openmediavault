@@ -186,7 +186,7 @@ export class FormPageComponent
       this.rpcService[request.get.task ? 'requestTask' : 'request'](
         request.service,
         request.get.method,
-        request.get.params
+        request.get.params || {}
       )
         .pipe(
           catchError((error) => {

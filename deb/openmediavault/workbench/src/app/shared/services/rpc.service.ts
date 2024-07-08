@@ -48,7 +48,7 @@ export class RpcService {
     private http: HttpClient,
     private ngZone: NgZone,
     private notificationService: NotificationService
-  ) {}
+  ) { }
 
   /**
    * Execute the specified RPC.
@@ -68,7 +68,8 @@ export class RpcService {
   ): Observable<any> {
     const body: Record<string, any> = {
       service: rpcService,
-      method: rpcMethod
+      method: rpcMethod,
+      params: rpcParams || {}
     };
     if (!(_.isUndefined(rpcParams) || _.isNull(rpcParams))) {
       body.params = rpcParams;
@@ -106,7 +107,7 @@ export class RpcService {
       map((res: RpcBgResponse): string => {
         try {
           return JSON.parse(res.output);
-        } catch (e) {}
+        } catch (e) { }
         return res.output;
       })
     );

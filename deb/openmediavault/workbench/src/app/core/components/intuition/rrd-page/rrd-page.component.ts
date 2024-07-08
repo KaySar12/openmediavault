@@ -65,7 +65,7 @@ export class RrdPageComponent extends AbstractPageComponent<RrdPageConfig> imple
   ) {
     super(activatedRoute, authSessionService, router);
     // Check if monitoring is enabled.
-    this.rpcService.request('PerfStats', 'get').subscribe((resp) => {
+    this.rpcService.request('PerfStats', 'get',{}).subscribe((resp) => {
       this.monitoringEnabled = _.get(resp, 'enable', false);
     });
   }

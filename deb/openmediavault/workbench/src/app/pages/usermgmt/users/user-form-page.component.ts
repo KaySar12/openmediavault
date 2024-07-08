@@ -125,7 +125,8 @@ export class UserFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'UserMgmt',
             get: {
-              method: 'enumerateAllGroups'
+              method: 'enumerateAllGroups',
+              params: {},
             }
           },
           sorters: [

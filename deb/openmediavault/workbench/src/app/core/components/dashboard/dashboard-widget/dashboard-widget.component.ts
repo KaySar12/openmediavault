@@ -62,7 +62,7 @@ export class DashboardWidgetComponent implements OnInit {
     return this.rpcService[request.task ? 'requestTask' : 'request'](
       request.service,
       request.method,
-      request.params
+      request.params  || {}
     ).pipe(
       map((res) => {
         if (_.isPlainObject(request.transform)) {

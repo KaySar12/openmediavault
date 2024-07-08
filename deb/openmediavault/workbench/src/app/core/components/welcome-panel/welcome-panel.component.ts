@@ -28,6 +28,6 @@ import { RpcService } from '~/app/shared/services/rpc.service';
 export class WelcomePanelComponent {
   constructor(private rpcService: RpcService) {}
   onClosed(): void {
-    this.rpcService.request('WebGui', 'dismissWelcomeMessage').subscribe();
+    this.rpcService.request('WebGui', 'dismissWelcomeMessage',{}).subscribe();
   }
 }

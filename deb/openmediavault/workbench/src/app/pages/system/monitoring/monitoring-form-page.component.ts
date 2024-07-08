@@ -29,10 +29,12 @@ export class MonitoringFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'PerfStats',
       get: {
-        method: 'get'
+        method: 'get',
+        params:{},
       },
       post: {
-        method: 'set'
+        method: 'set',
+        params:{}
       }
     },
     fields: [

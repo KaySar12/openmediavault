@@ -530,7 +530,8 @@ export class CronTaskFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'UserMgmt',
             get: {
-              method: 'enumerateAllUsers'
+              method: 'enumerateAllUsers',
+              params: {}
             }
           },
           sorters: [

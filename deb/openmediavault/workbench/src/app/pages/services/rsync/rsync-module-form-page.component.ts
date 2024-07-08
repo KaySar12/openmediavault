@@ -83,7 +83,8 @@ export class RsyncModuleFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'UserMgmt',
             get: {
-              method: 'enumerateAllUsers'
+              method: 'enumerateAllUsers',
+              params:{},
             }
           },
           sorters: [
@@ -112,7 +113,8 @@ export class RsyncModuleFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'UserMgmt',
             get: {
-              method: 'enumerateAllGroups'
+              method: 'enumerateAllGroups',
+              params:{},
             }
           },
           sorters: [

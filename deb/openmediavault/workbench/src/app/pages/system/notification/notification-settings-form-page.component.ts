@@ -29,10 +29,12 @@ export class NotificationSettingsFormPageComponent extends BaseFormPageComponent
     request: {
       service: 'EmailNotification',
       get: {
-        method: 'get'
+        method: 'get',
+        params:{},
       },
       post: {
-        method: 'set'
+        method: 'set',
+        params:{}
       }
     },
     fields: [
@@ -171,6 +173,7 @@ export class NotificationSettingsFormPageComponent extends BaseFormPageComponent
           request: {
             service: 'EmailNotification',
             method: 'sendTestEmail',
+            params:{},
             progressMessage: gettext('Please wait, sending a test email ...'),
             successNotification: gettext(
               // eslint-disable-next-line max-len

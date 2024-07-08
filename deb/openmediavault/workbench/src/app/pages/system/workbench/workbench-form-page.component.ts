@@ -29,10 +29,12 @@ export class WorkbenchFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'WebGui',
       get: {
-        method: 'getSettings'
+        method: 'getSettings',
+        params:{}
       },
       post: {
-        method: 'setSettings'
+        method: 'setSettings',
+        params:{}
       }
     },
     fields: [

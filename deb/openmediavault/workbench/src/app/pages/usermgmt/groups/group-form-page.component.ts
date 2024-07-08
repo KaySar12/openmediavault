@@ -63,7 +63,8 @@ export class GroupFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'UserMgmt',
             get: {
-              method: 'enumerateAllUsers'
+              method: 'enumerateAllUsers',
+              params: {}
             }
           },
           sorters: [

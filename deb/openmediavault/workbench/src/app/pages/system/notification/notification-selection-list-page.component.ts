@@ -36,10 +36,12 @@ export class NotificationSelectionListPageComponent extends BaseSelectionListPag
       proxy: {
         service: 'Notification',
         get: {
-          method: 'getList'
+          method: 'getList',
+          params:{}
         },
         post: {
           method: 'setList',
+          params:{},
           filter: {
             mode: 'pick',
             props: ['uuid', 'id', 'enable']

@@ -29,10 +29,12 @@ export class GeneralNetworkFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'Network',
       get: {
-        method: 'getGeneralSettings'
+        method: 'getGeneralSettings',
+        params:{}
       },
       post: {
-        method: 'setGeneralSettings'
+        method: 'setGeneralSettings',
+        params:{}
       }
     },
     fields: [

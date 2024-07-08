@@ -148,6 +148,7 @@ export class SharedFolderPermissionsDatatablePageComponent {
                   request: {
                     service: 'ShareMgmt',
                     method: 'copyPrivileges',
+                    params:{},
                     successNotification: gettext('Shared folder permissions have been copied.')
                   }
                 }

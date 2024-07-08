@@ -29,10 +29,12 @@ export class UpdateSettingsFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'Apt',
       get: {
-        method: 'getSettings'
+        method: 'getSettings',
+        params:{}
       },
       post: {
-        method: 'setSettings'
+        method: 'setSettings',
+        params:{}
       }
     },
     fields: [

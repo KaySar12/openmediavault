@@ -52,7 +52,8 @@ export class FormSharedfolderSelectComponent extends FormSelectComponent {
         proxy: {
           service: 'ShareMgmt',
           get: {
-            method: 'enumerateSharedFolders'
+            method: 'enumerateSharedFolders',
+            params: {}
           }
         },
         sorters: [

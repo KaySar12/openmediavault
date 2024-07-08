@@ -34,7 +34,8 @@ export class PerformanceStatisticNetworkRrdPageComponent {
       proxy: {
         service: 'Network',
         get: {
-          method: 'enumerateConfiguredDevices'
+          method: 'enumerateConfiguredDevices',
+          params:{}
         }
       },
       sorters: [

@@ -29,10 +29,12 @@ export class DateTimeFormPageComponent extends BaseFormPageComponent {
     request: {
       service: 'System',
       get: {
-        method: 'getTimeSettings'
+        method: 'getTimeSettings',
+        params:{}
       },
       post: {
-        method: 'setTimeSettings'
+        method: 'setTimeSettings',
+        params:{}
       }
     },
     fields: [
@@ -44,7 +46,8 @@ export class DateTimeFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'System',
             get: {
-              method: 'getTimeZoneList'
+              method: 'getTimeZoneList',
+              params:{}
             }
           }
         },

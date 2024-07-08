@@ -71,7 +71,8 @@ export class SharedFolderFormPageComponent extends BaseFormPageComponent {
           proxy: {
             service: 'ShareMgmt',
             get: {
-              method: 'getCandidates'
+              method: 'getCandidates',
+              params:{}
             }
           },
           sorters: [
