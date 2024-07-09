@@ -15,7 +15,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-import { Component, Renderer2 } from '@angular/core';
+import { Component, OnDestroy, OnInit, Renderer2 } from '@angular/core';
 
 import {
   PrefersColorScheme,
@@ -27,11 +27,16 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit, OnDestroy{
+  private messageHandler: any;
   constructor(
     private prefersColorSchemeService: PrefersColorSchemeService,
     private renderer2: Renderer2
   ) {
+
+  }
+  ngOnInit(): void {
+    debugger;
     this.prefersColorSchemeService.change$.subscribe(
       (prefersColorScheme: PrefersColorScheme): void => {
         if (prefersColorScheme === 'dark') {
@@ -41,5 +46,27 @@ export class AppComponent {
         }
       }
     );
+    // Set up the message handler when the component initializes
+    this.messageHandler = this.renderer2.listen('window', 'message', (event) => {
+      console.log("Received message:", event.data);
+      // Handle the setSessionStorage event type
+      if (event.data && event.data.type === 'setSessionStorage') {
+        this.handleSetSessionStorage(event.data.data);
+      }
+    });
+  }
+  ngOnDestroy(): void {
+    // Clean up the listener when the component is destroyed
+    this.messageHandler();
+  }
+  private handleSetSessionStorage(data: any): void {
+    debugger;
+    console.log("Handling setSessionStorage event with data:", data);
+    sessionStorage.setItem('username', data.username);
+    sessionStorage.setItem('permissions', JSON.stringify(data.permissions));
+    // Implement logic to handle the session storage update based on received data
+    // For example, updating UI, storing data, etc.
+    // Note: Direct manipulation of sessionStorage might be restricted due to Same-Origin Policy
+    // Consider using Angular services or backend APIs for state management across domains
   }
 }
