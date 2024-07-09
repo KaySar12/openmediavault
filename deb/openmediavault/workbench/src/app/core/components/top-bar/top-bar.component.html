@@ -52,11 +52,11 @@
         <mat-icon svgIcon="mdi:account-details"></mat-icon>
         <span>{{ 'Your profile' | transloco }}</span>
       </button>
-      <button mat-menu-item
+      <!-- <button mat-menu-item
               routerLink="/usermgmt/change-password">
         <mat-icon svgIcon="{{ icon.password }}"></mat-icon>
         <span>{{ 'Change Password' | transloco }}</span>
-      </button>
+      </button> -->
       <button mat-menu-item
               (click)="onLogout()">
         <mat-icon svgIcon="{{ icon.logout }}"></mat-icon>
@@ -123,32 +123,40 @@
   <mat-menu #helpMenu="matMenu">
     <ng-template matMenuContent>
       <a class="omv-text-decoration-none"
-         href="https://docs.openmediavault.org">
+         href="https://doc.nextzenos.com/howtouse/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-theo-t%C3%ADnh-n%C4%83ng/qu%E1%BA%A3n-l%C3%AD-%E1%BB%95-c%E1%BB%A9ng-nas.html">
         <button mat-menu-item>
           <mat-icon svgIcon="mdi:script-text"></mat-icon>
           <span>{{ 'Documentation' | transloco }}</span>
         </button>
       </a>
-      <a class="omv-text-decoration-none"
+      <!-- <a class="omv-text-decoration-none"
          href="https://forum.openmediavault.org">
         <button mat-menu-item>
           <mat-icon svgIcon="mdi:forum"></mat-icon>
           <span>{{ 'Forum' | transloco }}</span>
         </button>
-      </a>
+      </a> -->
       <a class="omv-text-decoration-none"
-         href="https://www.openmediavault.org">
+         href="https://nextzenos.com/">
         <button mat-menu-item>
           <mat-icon svgIcon="mdi:web"></mat-icon>
           <span>{{ 'Homepage' | transloco }}</span>
         </button>
       </a>
+
       <mat-divider></mat-divider>
-      <button mat-menu-item
+      <a class="omv-text-decoration-none"
+      href="https://nextzenos.com/gioi-thieu">
+     <button mat-menu-item>
+      <mat-icon svgIcon="{{ icon.information }}"></mat-icon>
+       <span>{{ 'About' | transloco }}</span>
+     </button>
+   </a>
+      <!-- <button mat-menu-item
               routerLink="/about">
         <mat-icon svgIcon="{{ icon.information }}"></mat-icon>
         <span>{{ 'About' | transloco }}</span>
-      </button>
+      </button> -->
     </ng-template>
   </mat-menu>
 </mat-toolbar>

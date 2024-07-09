@@ -1007,7 +1007,9 @@ body {
 }
 
 body {
-  background-color: var(--mat-background-color-body);
+  // background-color: var(--mat-background-color-body);
+  background: url("/assets/images/default_wallpaper.jpg") no-repeat !important;
+  background-size:cover !important;
   font-family: var(--mat-font-family-body);
   margin: 0;
 }
