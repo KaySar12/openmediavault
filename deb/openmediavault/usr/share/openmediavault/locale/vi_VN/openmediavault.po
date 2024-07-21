@@ -1,0 +1,3997 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the openmediavault package.
+# 
+# Translators:
+# Axel Cantenys, 2021
+# Benoit Maliar <maliarbenoit@msn.com>, 2015
+# Christophe Lherieau <skimpax@gmail.com>, 2012-2015
+# Axel Cantenys, 2020
+# Francis Dhumes, 2023
+# Jérémy D <bxt@mondedie.fr>, 2018
+# Jonathan Tasseroul <jonathan.tasseroul@gmail.com>, 2021
+# Kevin Leclercq <nuklearstriker@gmail.com>, 2020
+# M@T D., 2022
+# M@T D., 2022-2023
+# Nadley-Nahir Mohamed <nahirmoha@gmail.com>, 2012-2013
+# Pierre Girard <pierre4012@hotmail.com>, 2021
+# Stéphane BOCQUET <sbocquet4772@gmail.com>, 2012-2013
+# Stéphane Bocquet <stephane_bocquet@hotmail.com>, 2012
+# Volker Theile <votdev@gmx.de>, 2022
+# Volker Theile <votdev@gmx.de>, 2015-2016,2018,2021
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-27 14:32+0200\n"
+"PO-Revision-Date: 2012-03-17 01:48+0000\n"
+"Last-Translator: Francis Dhumes, 2023\n"
+"Language-Team: Vietnamese (Vietnam) (http://app.transifex.com/openmediavault/openmediavault/language/vi_VI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VI\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+msgid "%d days"
+msgstr "%d ngày"
+
+msgid "%d hours"
+msgstr "%d giờ"
+
+msgid "%d minutes"
+msgstr "%d phút"
+
+msgid "%d months"
+msgstr "%d tháng"
+
+msgid "%d years"
+msgstr "%d năm"
+
+msgid "%s [%s, %s (%d%%) used, %s available]"
+msgstr "%s [%s, %s (%d%%) đã sử dụng, %s còn trống]"
+
+msgid "%s [%s]"
+msgstr "%s [%s]"
+
+msgid "%s [on %s, %s]"
+msgstr "%s [vào %s, %s]"
+
+msgid "%s ago"
+msgstr "%s trước"
+
+msgid "1 - Minimum power usage with standby (spindown)"
+msgstr "1 - Tiêu thụ điện năng tối thiểu với chế độ chờ (quay)"
+
+msgid "1 GiB"
+msgstr "1 GB"
+
+msgid "1 MiB"
+msgstr "1 MB"
+
+msgid "1 day"
+msgstr "1 ngày"
+
+msgid "1 min"
+msgstr "1 phút"
+
+msgid "1 minute"
+msgstr "1 phút"
+
+msgid "1 month"
+msgstr "1 tháng"
+
+msgid "1 week"
+msgstr "1 tuần"
+
+msgid "1 year"
+msgstr "1 năm"
+
+msgid "10 MiB"
+msgstr "10 MB"
+
+msgid "10 minutes"
+msgstr "10 phút"
+
+msgid "10 years"
+msgstr "10 năm"
+
+msgid "100 MiB"
+msgstr "100 MB"
+
+msgid "120 minutes"
+msgstr "120 phút"
+
+msgid "127 - Intermediate power usage with standby"
+msgstr "127 - Tiêu thụ điện năng trung bình với chế độ chờ"
+
+msgid "128 - Minimum power usage without standby (no spindown)"
+msgstr "128 - Tiêu thụ điện năng tối thiểu không có chế độ chờ (không dừng quay)"
+
+msgid "15 min"
+msgstr "15 phút"
+
+msgid "15 minutes"
+msgstr "15 phút"
+
+msgid "15 years"
+msgstr "15 năm"
+
+msgid "180 minutes"
+msgstr "180 phút"
+
+msgid "192 - Intermediate power usage without standby"
+msgstr "192 - Tiêu thụ điện năng trung bình không có chế độ chờ"
+
+msgid "2 GiB"
+msgstr "2 GB"
+
+msgid "2 MiB"
+msgstr "2 MB"
+
+msgid "2 days"
+msgstr "2 ngày"
+
+msgid "2 minutes"
+msgstr "2 phút"
+
+msgid "2 weeks"
+msgstr "2 tuần"
+
+msgid "2 years"
+msgstr "2 năm"
+
+msgid "20 minutes"
+msgstr "20 phút"
+
+msgid "20 years"
+msgstr "20 năm"
+
+msgid "240 minutes"
+msgstr "240 phút"
+
+msgid "25 MiB"
+msgstr "25 MB"
+
+msgid "25 years"
+msgstr "25 năm"
+
+msgid "250 MiB"
+msgstr "250 MB"
+
+msgid "254 - Maximum performance, maximum power usage"
+msgstr "254 - Hiệu suất tối đa, tiêu thụ điện năng tối đa"
+
+msgid "255 - Disabled"
+msgstr "255 - Vô hiệu hóa"
+
+msgid "3 days"
+msgstr "3 ngày"
+
+msgid "3 minutes"
+msgstr "3 phút"
+
+msgid "3 months"
+msgstr "3 tháng"
+
+msgid "3 weeks"
+msgstr "3 tuần"
+
+msgid "3 years"
+msgstr "3 năm"
+
+msgid "30 minutes"
+msgstr "30 phút"
+
+msgid "300 minutes"
+msgstr "300 phút"
+
+msgid "330 minutes"
+msgstr "330 phút"
+
+msgid "4 GiB"
+msgstr "4 GB"
+
+msgid "4 days"
+msgstr "4 ngày"
+
+msgid "4 minutes"
+msgstr "4 phút"
+
+msgid "4 years"
+msgstr "4 năm"
+
+msgid "5 MiB"
+msgstr "5 MB"
+
+msgid "5 days"
+msgstr "5 ngày"
+
+msgid "5 min"
+msgstr "5 phút"
+
+msgid "5 minutes"
+msgstr "5 phút"
+
+msgid "5 years"
+msgstr "5 năm"
+
+msgid "50 MiB"
+msgstr "50 MB"
+
+msgid "500 MiB"
+msgstr "500 MB"
+
+msgid "6 days"
+msgstr "6 ngày"
+
+msgid "6 months"
+msgstr "6 tháng"
+
+msgid "60 minutes"
+msgstr "60 phút"
+
+msgid "64 - Intermediate power usage with standby"
+msgstr "64 - Tiêu thụ điện năng trung bình với chế độ chờ"
+
+msgid "75 MiB"
+msgstr "75 MB"
+
+msgid "750 MiB"
+msgstr "750 MB"
+
+msgid "9 months"
+msgstr "9 tháng"
+
+msgid ""
+"A reboot is needed to fully apply the changes introduced by package "
+"installation or upgrade."
+msgstr "Cần khởi động lại để áp dụng hoàn toàn các thay đổi được giới thiệu bởi cài đặt hoặc nâng cấp gói."
+
+msgid "A running background task was detected."
+msgstr "Một tác vụ nền đang chạy đã được phát hiện."
+
+msgid "A scheduled task to create a snapshot has been created."
+msgstr "Một tác vụ được lên lịch để tạo một snapshot đã được tạo."
+
+msgid "A secure shell (SSH) server."
+msgstr "Một máy chủ Shell bảo mật (SSH)."
+
+msgid "ACL"
+msgstr "ACL"
+
+msgid "About"
+msgstr "Giới thiệu"
+
+msgid "Absolute Path"
+msgstr "Đường dẫn tuyệt đối"
+
+msgid "Abstract"
+msgstr "Tóm tắt"
+
+msgid "Access control list"
+msgstr "Danh sách quyền truy cập"
+
+msgid "Act as a WINS server."
+msgstr "Hoạt động như một máy chủ WINS."
+
+msgid ""
+"Acting as a WINS server and using a WINS server are mutually exclusive."
+msgstr "Hoạt động như một máy chủ WINS và sử dụng một máy chủ WINS không thể đồng thời."
+
+msgid "Action"
+msgstr "Hành động"
+
+msgid ""
+"Activate S.M.A.R.T. monitoring for this device. Note that only monitored "
+"devices are listed in the scheduled tasks. Monitoring cannot be switched off"
+" as long as there are scheduled tasks for this device."
+msgstr "Kích hoạt giám sát S.M.A.R.T. cho thiết bị này. Lưu ý rằng chỉ những thiết bị được giám sát mới được liệt kê trong các tác vụ đã lên lịch. Giám sát không thể tắt chừng nào còn có các tác vụ đã lên lịch cho thiết bị này."
+
+msgid "Active"
+msgstr "Hoạt động"
+
+msgid "Active or Idle"
+msgstr "Hoạt động hoặc Nhàn rỗi"
+
+msgid "Add"
+msgstr "Thêm"
+
+msgid "Address"
+msgstr "Địa chỉ"
+
+msgid "Administrator: read/write, Users: no access, Others: no access"
+msgstr "Quản trị viên: đọc/ghi, Người dùng: không truy cập, Người khác: không truy cập"
+
+msgid "Administrator: read/write, Users: read-only, Others: no access"
+msgstr "Quản trị viên: đọc/ghi, Người dùng: chỉ đọc, Người khác: không truy cập"
+
+msgid "Administrator: read/write, Users: read-only, Others: read-only"
+msgstr "Quản trị viên: đọc/ghi, Người dùng: chỉ đọc, Người khác: chỉ đọc"
+
+msgid "Administrator: read/write, Users: read/write, Others: no access"
+msgstr "Quản trị viên: đọc/ghi, Người dùng: đọc/ghi, Người khác: không truy cập"
+
+msgid "Administrator: read/write, Users: read/write, Others: read-only"
+msgstr "Quản trị viên: đọc/ghi, Người dùng: đọc/ghi, Người khác: chỉ đọc"
+
+msgid "Advanced Acoustic Management"
+msgstr "Quản lý âm thanh nâng cao"
+
+msgid "Advanced Power Management"
+msgstr "Quản lý năng lượng nâng cao"
+
+msgid "Advanced settings"
+msgstr "Cài đặt nâng cao"
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "Aland Islands"
+msgstr "Quần đảo Åland"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Algeria"
+msgstr "Algeria"
+
+msgid "All"
+msgstr "Tất cả"
+
+msgid "All Snapshots"
+msgstr "Tất cả các ảnh chụp nhanh"
+
+msgid "All packages will be upgraded. Do you want to proceed?"
+msgstr "Tất cả các gói sẽ được nâng cấp. Bạn có muốn tiếp tục không?"
+
+msgid "Allow clients to attempt to store OS/2 state extended attributes on a share."
+msgstr "Cho phép khách hàng cố gắng lưu trữ các thuộc tính mở rộng trạng thái OS/2 trên một chia sẻ."
+
+msgid "Allow this server to advertise itself as a time server to Windows clients."
+msgstr "Cho phép máy chủ này tự quảng cáo là máy chủ thời gian cho các khách hàng Windows."
+
+msgid "Allowed clients"
+msgstr "Khách hàng được phép"
+
+msgid "American Samoa"
+msgstr "Samoa thuộc Mỹ"
+
+msgid "An attempt to send the test email has been made. Please check your mailbox. If the email does not arrive, check any spam folders and also check there are no Postfix related errors in the system log."
+msgstr "Một cố gắng gửi email kiểm tra đã được thực hiện. Vui lòng kiểm tra hộp thư của bạn. Nếu email không đến, hãy kiểm tra các thư mục spam và cũng kiểm tra xem không có lỗi liên quan đến Postfix trong nhật ký hệ thống."
+
+msgid "An email message with the command output (if any produced) is send to the administrator."
+msgstr "Một email chứa kết quả lệnh (nếu có) được gửi đến quản trị viên."
+
+msgid "An email message with the command output (if any produced) is send to the user who performs the job."
+msgstr "Một email chứa kết quả lệnh (nếu có) được gửi đến người dùng thực hiện công việc."
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Antarctica"
+msgstr "Nam Cực"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua và Barbuda"
+
+msgid "Applied the configuration changes."
+msgstr "Các thay đổi cấu hình đã được áp dụng."
+
+msgid "Apply"
+msgstr "Áp dụng"
+
+msgid "Apply permissions to files and subfolders."
+msgstr "Áp dụng quyền cho các tệp và thư mục con."
+
+msgid "April"
+msgstr "Tháng Tư"
+
+msgid "Architecture"
+msgstr "Kiến trúc"
+
+msgid "Archive mode"
+msgstr "Chế độ lưu trữ"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Armenia"
+msgstr "Armenia"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Asynchronous I/O"
+msgstr "I/O không đồng bộ"
+
+msgid "At least four devices are required."
+msgstr "Cần ít nhất bốn thiết bị."
+
+msgid "At least one device is required."
+msgstr "Cần ít nhất một thiết bị."
+
+msgid "At least one network interface is required."
+msgstr "Cần ít nhất một giao diện mạng."
+
+msgid "At least two devices are required."
+msgstr "Cần ít nhất hai thiết bị."
+
+msgid "At reboot"
+msgstr "Khi khởi động lại"
+
+msgid "Attach"
+msgstr "Đính kèm"
+
+msgid "Attributes"
+msgstr "Thuộc tính"
+
+msgid "Audit file operations"
+msgstr "Kiểm toán các hoạt động tập tin"
+
+msgid "August"
+msgstr "Tháng Tám"
+
+msgid "Australia"
+msgstr "Úc"
+
+msgid "Austria"
+msgstr "Áo"
+
+msgid "Authenticate users"
+msgstr "Xác thực người dùng"
+
+msgid "Authentication"
+msgstr "Xác thực"
+
+msgid "Authentication required"
+msgstr "Yêu cầu xác thực"
+
+msgid "Auto"
+msgstr "Tự động"
+
+msgid "Auto logout"
+msgstr "Tự động đăng xuất"
+
+msgid "Available"
+msgstr "Có sẵn"
+
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+msgid "Back"
+msgstr "Quay lại"
+
+msgid "Background task"
+msgstr "Tác vụ nền"
+
+msgid "Bad"
+msgstr "Xấu"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Base path"
+msgstr "Đường dẫn gốc"
+
+msgid "Belarus"
+msgstr "Belarus"
+
+msgid "Belgium"
+msgstr "Bỉ"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermuda"
+
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgid "Block layer cache [%s, %s]"
+msgstr "Bộ nhớ đệm lớp khối [%s, %s]"
+
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgid "Bond"
+msgstr "Liên kết"
+
+msgid "Boot"
+msgstr "Khởi động"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia và Herzegovina"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Bouvet Island"
+msgstr "Đảo Bouvet"
+
+msgid "Brazil"
+msgstr "Brazil"
+
+msgid "Bridge"
+msgstr "Cầu nối"
+
+msgid "British Antarctic Territory"
+msgstr "Lãnh thổ Nam Cực thuộc Anh"
+
+msgid "British Indian Ocean Territory"
+msgstr "Lãnh thổ Ấn Độ Dương thuộc Anh"
+
+msgid "British Virgin Islands"
+msgstr "Quần đảo Virgin thuộc Anh"
+
+msgid "Browse directory"
+msgstr "Duyệt thư mục"
+
+msgid "Browseable"
+msgstr "Có thể duyệt"
+
+msgid "Brunei"
+msgstr "Brunei"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "CPU Usage"
+msgstr "Sử dụng CPU"
+
+msgid "CPU Utilization"
+msgstr "Sử dụng CPU"
+
+msgid "CPU usage"
+msgstr "Sử dụng CPU"
+
+msgid "Cambodia"
+msgstr "Campuchia"
+
+msgid "Cameroon"
+msgstr "Cameroon"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Canton and Enderbury Islands"
+msgstr "Quần đảo Canton và Enderbury"
+
+msgid "Capacity"
+msgstr "Dung lượng"
+
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+msgid "Cayman Islands"
+msgstr "Quần đảo Cayman"
+
+msgid "Central African Republic"
+msgstr "Cộng hòa Trung Phi"
+
+msgid "Certain date"
+msgstr "Ngày cụ thể"
+
+msgid "Certificate"
+msgstr "Chứng chỉ"
+
+msgid "Certificate management."
+msgstr "Quản lý chứng chỉ."
+
+msgid "Certificates"
+msgstr "Chứng chỉ"
+
+msgid "Chad"
+msgstr "Tchad"
+
+msgid "Change Password"
+msgstr "Đổi mật khẩu"
+
+msgid "Changelog"
+msgstr "Nhật ký thay đổi"
+
+msgid "Check for new plugins"
+msgstr "Kiểm tra plugin mới"
+
+msgid "Check for new updates"
+msgstr "Kiểm tra cập nhật mới"
+
+msgid "Check interval"
+msgstr "Khoảng thời gian kiểm tra"
+
+msgid "Checking for new plugins ..."
+msgstr "Đang kiểm tra plugin mới ..."
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "Trung Quốc"
+
+msgid "Choose"
+msgstr "Chọn"
+
+msgid "Christmas Island"
+msgstr "Đảo Christmas"
+
+msgid "City"
+msgstr "Thành phố"
+
+msgid "Cleaning up recycle bin on the share."
+msgstr "Đang dọn thùng rác trên thư mục chia sẻ."
+
+msgid "Clear"
+msgstr "Xóa"
+
+msgid "Client"
+msgstr "Khách hàng"
+
+msgid "Client NetBIOS name"
+msgstr "Tên NetBIOS của khách hàng"
+
+msgid "Client address"
+msgstr "Địa chỉ khách hàng"
+
+msgid "Clients allowed to mount the file system, e.g. 192.168.178.0/24."
+msgstr "Các khách hàng được phép gắn kết hệ thống tệp, ví dụ: 192.168.178.0/24."
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Close the session on inactivity after the specified time."
+msgstr "Đóng phiên làm việc sau khoảng thời gian không hoạt động nhất định."
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Quần đảo Cocos (Keeling)"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Command"
+msgstr "Lệnh"
+
+msgid "Comment"
+msgstr "Bình luận"
+
+msgid "Common Name"
+msgstr "Tên chung"
+
+msgid "Community-maintained updates"
+msgstr "Cập nhật do cộng đồng duy trì"
+
+msgid "Comoros"
+msgstr "Comoros"
+
+msgid "Compress"
+msgstr "Nén"
+
+msgid "Compress file data during the transfer."
+msgstr "Nén dữ liệu tệp trong quá trình truyền."
+
+msgid "Compression"
+msgstr "Nén"
+
+msgid "Compression is worth using if your connection is slow. The efficiency of the compression depends on the type of the file, and varies widely. Useful for internet transfer only."
+msgstr "Nén đáng để sử dụng nếu kết nối của bạn chậm. Hiệu quả của việc nén phụ thuộc vào loại tệp và thay đổi nhiều. Chỉ hữu ích cho việc truyền tải internet."
+
+msgid "Confirm"
+msgstr "Xác nhận"
+
+msgid "Confirm password"
+msgstr "Xác nhận mật khẩu"
+
+msgid "Confirmation"
+msgstr "Xác nhận"
+
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+msgid "Connect even if the network is not broadcasting its SSID name."
+msgstr "Kết nối ngay cả khi mạng không phát sóng tên SSID."
+
+msgid "Connect to hidden network"
+msgstr "Kết nối với mạng ẩn"
+
+msgid "Connections"
+msgstr "Kết nối"
+
+msgid "Control and monitor storage systems using S.M.A.R.T."
+msgstr "Kiểm soát và giám sát hệ thống lưu trữ bằng S.M.A.R.T."
+
+msgid "Conveyance self-test"
+msgstr "Tự kiểm tra vận chuyển"
+
+msgid "Cook Islands"
+msgstr "Quần đảo Cook"
+
+msgid "Copied SSH certificate to {{ hostname }}."
+msgstr "Đã sao chép chứng chỉ SSH đến {{ hostname }}."
+
+msgid "Copy"
+msgstr "Sao chép"
+
+msgid "Copy permissions"
+msgstr "Sao chép quyền"
+
+msgid "Copy public SSH key"
+msgstr "Sao chép khóa công khai SSH"
+
+msgid "Copy to clipboard"
+msgstr "Sao chép vào khay nhớ tạm"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Country"
+msgstr "Quốc gia"
+
+msgid "Create"
+msgstr "Tạo"
+
+msgid "Create and mount a file system."
+msgstr "Tạo và gắn kết một hệ thống tệp."
+
+msgid "Create file system"
+msgstr "Tạo hệ thống tệp"
+
+msgid "Create | Import"
+msgstr "Tạo | Nhập"
+
+msgid "Created NFS share."
+msgstr "Đã tạo chia sẻ NFS."
+
+msgid "Created Rsync server module \"{{ name }}\"."
+msgstr "Đã tạo mô-đun máy chủ Rsync \"{{ name }}\"."
+
+msgid "Created Rsync task."
+msgstr "Đã tạo nhiệm vụ Rsync."
+
+msgid "Created SMB/CIFS share."
+msgstr "Đã tạo chia sẻ SMB/CIFS."
+
+msgid "Created SSH certificate."
+msgstr "Đã tạo chứng chỉ SSH."
+
+msgid "Created SSL certificate."
+msgstr "Đã tạo chứng chỉ SSL."
+
+msgid "Created VLAN network connection."
+msgstr "Đã tạo kết nối mạng VLAN."
+
+msgid "Created bond network connection."
+msgstr "Đã tạo kết nối mạng liên kết."
+
+msgid "Created bridge network connection."
+msgstr "Đã tạo kết nối mạng cầu."
+
+msgid "Created firewall rule."
+msgstr "Đã tạo quy tắc tường lửa."
+
+msgid "Created group \"{{ name }}\"."
+msgstr "Đã tạo nhóm \"{{ name }}\"."
+
+msgid "Created scheduled task."
+msgstr "Đã tạo nhiệm vụ theo lịch."
+
+msgid "Created user \"{{ name }}\"."
+msgstr "Đã tạo người dùng \"{{ name }}\"."
+
+msgid "Created wired network connection."
+msgstr "Đã tạo kết nối mạng có dây."
+
+msgid "Created wireless network connection."
+msgstr "Đã tạo kết nối mạng không dây."
+
+msgid "Creation Time"
+msgstr "Thời gian tạo"
+
+msgid "Croatia"
+msgstr "Croatia"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Currently logged in users"
+msgstr "Người dùng hiện đang đăng nhập"
+
+msgid "Cyprus"
+msgstr "Síp"
+
+msgid "Czech Republic"
+msgstr "Cộng hòa Séc"
+
+msgid "DHCP"
+msgstr "DHCP"
+
+msgid "DNS servers"
+msgstr "Máy chủ DNS"
+
+msgid "Daemon"
+msgstr "Quá trình nền"
+
+msgid "Daily"
+msgstr "Hàng ngày"
+
+msgid "Dark mode"
+msgstr "Chế độ tối"
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+msgid "Date & Time"
+msgstr "Ngày & Giờ"
+
+msgid "Day of month"
+msgstr "Ngày trong tháng"
+
+msgid "Day of week"
+msgstr "Ngày trong tuần"
+
+msgid "Debug"
+msgstr "Gỡ lỗi"
+
+msgid "December"
+msgstr "Tháng mười hai"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Delete files on the receiving side that don't exist on sender."
+msgstr "Xóa các tệp ở phía nhận mà không tồn tại ở phía gửi."
+
+msgid "Denmark"
+msgstr "Đan Mạch"
+
+msgid "Description"
+msgstr "Mô tả"
+
+msgid "Destination"
+msgstr "Điểm đến"
+
+msgid "Destination address can be either a network IP address (with /mask), a IP range or a plain IP address. A \"!\" argument before the address specification inverts the sense of the address."
+msgstr "Địa chỉ đích có thể là địa chỉ IP mạng (với /mask), một phạm vi IP hoặc một địa chỉ IP thông thường. Một tham số \"!\" trước đặc tả địa chỉ sẽ đảo ngược ý nghĩa của địa chỉ đó."
+
+msgid "Destination port"
+msgstr "Cổng đích"
+
+msgid "Destination server"
+msgstr "Máy chủ đích"
+
+msgid "Destination shared folder"
+msgstr "Thư mục chia sẻ đích"
+
+msgid "Details"
+msgstr "Chi tiết"
+
+msgid "Device"
+msgstr "Thiết bị"
+
+msgid "Device Information"
+msgstr "Thông tin thiết bị"
+
+msgid "Device Mapper %s [%s, %s]"
+msgstr "Bộ ánh xạ thiết bị %s [%s, %s]"
+
+msgid "Device Symlinks"
+msgstr "Liên kết biểu tượng của thiết bị"
+
+msgid "Device has a few bad sectors."
+msgstr "Thiết bị có một vài sector xấu."
+
+msgid "Device has many bad sectors."
+msgstr "Thiết bị có nhiều sector xấu."
+
+msgid "Device is being used outside design parameters."
+msgstr "Thiết bị đang được sử dụng ngoài các thông số thiết kế."
+
+msgid "Device was used outside of design parameters in the past."
+msgstr "Thiết bị đã từng được sử dụng ngoài các thông số thiết kế trong quá khứ."
+
+msgid "Device(s)"
+msgstr "Thiết bị"
+
+msgid "Devices"
+msgstr "Các thiết bị"
+
+msgid "Diagnostics"
+msgstr "Chuẩn đoán"
+
+msgid "Difference"
+msgstr "Sự khác biệt"
+
+msgid "Direction"
+msgstr "Hướng"
+
+msgid "Disabled"
+msgstr "Bị vô hiệu hóa"
+
+msgid "Disallow account modification"
+msgstr "Không cho phép sửa đổi tài khoản"
+
+msgid "Disallow the user to modify their own account."
+msgstr "Không cho phép người dùng sửa đổi tài khoản của chính họ."
+
+msgid "Disk Temperatures"
+msgstr "Nhiệt độ đĩa"
+
+msgid "Disk Usage"
+msgstr "Sử dụng đĩa"
+
+msgid "Disks"
+msgstr "Đĩa"
+
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+msgid "Dismiss all"
+msgstr "Bỏ qua tất cả"
+
+msgid "Displays information about the file systems in a grid."
+msgstr "Hiển thị thông tin về hệ thống tệp dưới dạng lưới."
+
+msgid "Displays information about the file systems in a table."
+msgstr "Hiển thị thông tin về hệ thống tệp dưới dạng bảng."
+
+msgid "Displays information about the network interfaces in a grid."
+msgstr "Hiển thị thông tin về giao diện mạng dưới dạng lưới."
+
+msgid "Displays information about the network interfaces in a table."
+msgstr "Hiển thị thông tin về giao diện mạng dưới dạng bảng."
+
+msgid "Displays information about the services in a grid."
+msgstr "Hiển thị thông tin về các dịch vụ dưới dạng lưới."
+
+msgid "Displays information about the services in a table."
+msgstr "Hiển thị thông tin về các dịch vụ dưới dạng bảng."
+
+msgid "Displays the S.M.A.R.T. status of all monitored disk devices."
+msgstr "Hiển thị trạng thái S.M.A.R.T. của tất cả các thiết bị đĩa được giám sát."
+
+msgid "Displays the system time."
+msgstr "Hiển thị thời gian hệ thống."
+
+msgid "Displays the system uptime."
+msgstr "Hiển thị thời gian hoạt động của hệ thống."
+
+msgid "Displays the temperature of all disk devices."
+msgstr "Hiển thị nhiệt độ của tất cả các thiết bị đĩa."
+
+msgid "Displays various system information."
+msgstr "Hiển thị các thông tin hệ thống khác nhau."
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Do you really want to apply the configuration changes?"
+msgstr "Bạn có thực sự muốn áp dụng các thay đổi cấu hình không?"
+
+msgid "Do you really want to copy the permissions from the shared folder?"
+msgstr "Bạn có thực sự muốn sao chép quyền từ thư mục chia sẻ không?"
+
+msgid ""
+"Do you really want to delete the selected item(s) <strong>{{ items | "
+"join(\", \") }}</strong>?"
+msgstr "Bạn có thực sự muốn xóa mục đã chọn <strong>{{ items | join(\", \") }}</strong> không?"
+
+msgid "Do you really want to delete the selected item(s)?"
+msgstr "Bạn có thực sự muốn xóa mục đã chọn không?"
+
+msgid "Do you really want to install the plugin?"
+msgstr "Bạn có thực sự muốn cài đặt tiện ích không?"
+
+msgid "Do you really want to logout?"
+msgstr "Bạn có thực sự muốn đăng xuất không?"
+
+msgid "Do you really want to put the system into standby?"
+msgstr "Bạn có thực sự muốn đưa hệ thống vào chế độ chờ không?"
+
+msgid "Do you really want to reboot the system?"
+msgstr "Bạn có thực sự muốn khởi động lại hệ thống không?"
+
+msgid "Do you really want to reset the UI settings to their default values?"
+msgstr "Bạn có thực sự muốn đặt lại các cài đặt giao diện người dùng về giá trị mặc định không?"
+
+msgid ""
+"Do you really want to resize the file system? You have to do that after a "
+"RAID has been grown for example."
+msgstr "Bạn có thực sự muốn thay đổi kích thước hệ thống tệp không? Bạn cần thực hiện điều này sau khi RAID đã được mở rộng, ví dụ."
+
+msgid "Do you really want to shutdown the system?"
+msgstr "Bạn có thực sự muốn tắt hệ thống không?"
+
+msgid "Do you really want to undo the configuration changes?"
+msgstr "Bạn có thực sự muốn hoàn tác các thay đổi cấu hình không?"
+
+msgid "Do you really want to uninstall the plugin?"
+msgstr "Bạn có thực sự muốn gỡ cài đặt tiện ích không?"
+
+msgid ""
+"Do you really want to unmount this file system? Please make sure that the "
+"file system is not used by any service before unmounting. Note, the file "
+"system will not be deleted by this action."
+msgstr "Bạn có thực sự muốn gỡ bỏ gắn kết hệ thống tệp này không? Vui lòng đảm bảo rằng hệ thống tệp không được sử dụng bởi bất kỳ dịch vụ nào trước khi gỡ bỏ gắn kết. Lưu ý, hệ thống tệp sẽ không bị xóa bởi hành động này."
+
+msgid ""
+"Do you really want to wipe the device {{ canonicaldevicefile }}? All data "
+"will be lost."
+msgstr "Bạn có thực sự muốn xóa sạch thiết bị {{ canonicaldevicefile }} không? Tất cả dữ liệu sẽ bị mất."
+
+msgid "Documentation"
+msgstr "Tài liệu"
+
+msgid "Domain name"
+msgstr "Tên miền"
+
+msgid "Domains used when resolving host names."
+msgstr "Các miền được sử dụng khi giải quyết tên máy chủ."
+
+msgid "Dominica"
+msgstr "Dominica"
+
+msgid "Dominican Republic"
+msgstr "Cộng hòa Dominican"
+
+msgid "Down"
+msgstr "Xuống"
+
+msgid "Down delay"
+msgstr "Độ trễ dừng"
+
+msgid "Download"
+msgstr "Tải xuống"
+
+msgid "Dronning Maud Land"
+msgstr "Đất Nữ hoàng Maud"
+
+msgid "Each line represents a group."
+msgstr "Mỗi dòng đại diện cho một nhóm."
+
+msgid ""
+"Each line represents a user. Note, the password must be entered in plain "
+"text."
+msgstr "Mỗi dòng đại diện cho một người dùng. Lưu ý, mật khẩu phải được nhập dưới dạng văn bản thường."
+
+msgid "East Timor"
+msgstr "Timor-Leste"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+msgid "Egypt"
+msgstr "Ai Cập"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Email"
+msgstr "Địa chỉ email"
+
+msgid "Empty now"
+msgstr "Bây giờ trống"
+
+msgid "Enable NetBIOS"
+msgstr "Kích hoạt NetBIOS"
+
+msgid "Enable Time Machine support for this share."
+msgstr "Kích hoạt hỗ trợ Time Machine cho chia sẻ này."
+
+msgid "Enable WINS server"
+msgstr "Kích hoạt máy chủ WINS"
+
+msgid "Enable automatic snapshot clean up."
+msgstr "Kích hoạt tự động dọn dẹp snapshot."
+
+msgid "Enable keyboard-interactive authentication."
+msgstr "Kích hoạt xác thực tương tác bằng bàn phím."
+
+msgid "Enable public key authentication."
+msgstr "Kích hoạt xác thực bằng khóa công khai."
+
+msgid "Enable recycle bin"
+msgstr "Kích hoạt thùng rác"
+
+msgid "Enable remote logging of syslog to the specified host."
+msgstr "Kích hoạt ghi nhật ký từ xa syslog tới máy chủ được chỉ định."
+
+msgid ""
+"Enable this option to keep partially transferred files, otherwise they will "
+"be deleted if the transfer is interrupted."
+msgstr "Kích hoạt tùy chọn này để giữ lại các tệp đã chuyển một phần, nếu không chúng sẽ bị xóa nếu quá trình chuyển bị ngắt quãng."
+
+msgid "Enable user home directories."
+msgstr "Kích hoạt thư mục người dùng."
+
+msgid "Enable write-cache"
+msgstr "Kích hoạt bộ nhớ đệm ghi"
+
+msgid "Enabled"
+msgstr "Đã kích hoạt"
+
+msgid "Enabled widgets"
+msgstr "Kích hoạt các widget"
+
+msgid "Encryption mode"
+msgstr "Chế độ mã hóa"
+
+msgid ""
+"Enforce transport encryption for this share. Clients that do not support "
+"encryption will be denied access to the share."
+msgstr "Thực thi mã hóa trong quá trình truyền cho chia sẻ này. Các khách hàng không hỗ trợ mã hóa sẽ bị từ chối truy cập vào chia sẻ."
+
+msgid "Equatorial Guinea"
+msgstr "Guinea Xích Đạo"
+
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+msgid "Events"
+msgstr "Sự kiện"
+
+msgid "Every N day of month"
+msgstr "Mỗi N ngày trong tháng"
+
+msgid "Every N hour"
+msgstr "Mỗi N giờ"
+
+msgid "Every N minute"
+msgstr "Mỗi N phút"
+
+msgid "Everyone: read/write"
+msgstr "Mọi người: đọc/ghi"
+
+msgid "Execute only"
+msgstr "Chỉ thực thi"
+
+msgid "Extended Information"
+msgstr "Thông tin mở rộng"
+
+msgid "Extended attributes"
+msgstr "Thuộc tính mở rộng"
+
+msgid "Extra options"
+msgstr "Tùy chọn thêm"
+
+msgid "FTP-Proxy"
+msgstr "Proxy FTP"
+
+msgid "Failed"
+msgstr "Thất bại"
+
+msgid "Failed to copy data to the clipboard."
+msgstr "Lỗi khi sao chép dữ liệu vào clipboard."
+
+msgid "Failed to start session."
+msgstr "Khởi động phiên không thành công."
+
+msgid "Failed to write session data."
+msgstr "Ghi dữ liệu phiên không thành công."
+
+msgid "Falkland Islands"
+msgstr "Quần đảo Malouines"
+
+msgid "Family"
+msgstr "Gia đình"
+
+msgid "Faroe Islands"
+msgstr "Quần đảo Féroé"
+
+msgid "Fatal error"
+msgstr "Lỗi nghiêm trọng"
+
+msgid "February"
+msgstr "Tháng Hai"
+
+msgid "Fiji"
+msgstr "Fiji"
+
+msgid "File Systems"
+msgstr "Hệ thống tệp"
+
+msgid "File access control lists"
+msgstr "Danh sách kiểm soát quyền truy cập tệp"
+
+msgid "File owner and group"
+msgstr "Chủ sở hữu và nhóm tệp"
+
+msgid "File path"
+msgstr "Đường dẫn tệp"
+
+msgid "File system"
+msgstr "Hệ thống tệp"
+
+msgid "File systems"
+msgstr "Hệ thống tệp"
+
+msgid "Filename"
+msgstr "Tên tệp"
+
+msgid ""
+"Files in the recycle bin will be deleted automatically after the specified "
+"number of days. Set to 0 for manual deletion."
+msgstr "Các tệp trong thùng rác sẽ tự động bị xóa sau số ngày quy định. Đặt thành 0 để xóa thủ công."
+
+msgid ""
+"Files that are larger than the specified number will not be put into the "
+"recycle bin."
+msgstr "Các tệp lớn hơn số quy định sẽ không được đưa vào thùng rác."
+
+msgid "Fingerprint (SHA-1)"
+msgstr "Dấu vân tay (SHA-1)"
+
+msgid "Fingerprint (SHA-256)"
+msgstr "Dấu vân tay (SHA-256)"
+
+msgid "Finland"
+msgstr "Phần Lan"
+
+msgid "Firewall"
+msgstr "Tường lửa"
+
+msgid "Firmware version"
+msgstr "Phiên bản firmware"
+
+msgid "Flags"
+msgstr "Cờ"
+
+msgid "Force SSL/TLS"
+msgstr "Buộc SSL/TLS"
+
+msgid "Force a specific MAC address on this interface."
+msgstr "Buộc một địa chỉ MAC cụ thể trên giao diện này."
+
+msgid "Force secure connection only."
+msgstr "Chỉ buộc kết nối an toàn."
+
+msgid "Forum"
+msgstr "Diễn đàn"
+
+msgid "Framework for Multicast DNS Service Discovery."
+msgstr "Khung cho phát hiện dịch vụ DNS đa điểm."
+
+msgid "France"
+msgstr "Pháp"
+
+msgid "Free"
+msgstr "Miễn phí"
+
+msgid "French Guiana"
+msgstr "Guyane thuộc Pháp"
+
+msgid "French Polynesia"
+msgstr "Polynésie thuộc Pháp"
+
+msgid "French Southern Territories"
+msgstr "Lãnh thổ phía nam của Pháp"
+
+msgid "French Southern and Antarctic Territories"
+msgstr "Lãnh thổ phía nam và châu Nam Cực của Pháp"
+
+msgid "Friday"
+msgstr "Thứ Sáu"
+
+msgid "Full"
+msgstr "Đầy đủ"
+
+msgid "GID"
+msgstr "GID"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "Gambia"
+msgstr "Gambia"
+
+msgid "Gateway"
+msgstr "Cổng"
+
+msgid "General"
+msgstr "Chung"
+
+msgid "Georgia"
+msgstr "Gruzia"
+
+msgid "Germany"
+msgstr "Đức"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Go to the notification sidebar to attach to it."
+msgstr "Đi tới thanh bên thông báo để đính kèm vào đó."
+
+msgid "Good"
+msgstr "Tốt"
+
+msgid "Greece"
+msgstr "Hy Lạp"
+
+msgid "Greenland"
+msgstr "Greenland"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Group"
+msgstr "Nhóm"
+
+msgid "Groups"
+msgstr "Các nhóm"
+
+msgid "Grow"
+msgstr "Mở rộng"
+
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guests allowed"
+msgstr "Cho phép khách"
+
+msgid "Guests only"
+msgstr "Chỉ khách"
+
+msgid "Guinea"
+msgstr "Guinea"
+
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "HTTP-Proxy"
+msgstr "Proxy HTTP"
+
+msgid "HTTPS-Proxy"
+msgstr "Proxy HTTPS"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Hardware Address"
+msgstr "Địa chỉ phần cứng"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Đảo Heard và các đảo McDonald"
+
+msgid "Help"
+msgstr "Giúp"
+
+msgid "Hibernate"
+msgstr "Ngủ đông"
+
+msgid "Hide"
+msgstr "Ẩn"
+
+msgid "Hide dot files"
+msgstr "Ẩn các tệp ẩn"
+
+msgid "High-performance mail transport agent."
+msgstr "Đại lý vận chuyển thư hiệu suất cao."
+
+msgid "Home"
+msgstr "Trang chủ"
+
+msgid "Home directories"
+msgstr "Thư mục cá nhân"
+
+msgid "Homepage"
+msgstr "Trang chính"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong S.A.R., China"
+msgstr "Hồng Kông, Trung Quốc"
+
+msgid "Host"
+msgstr "Máy chủ"
+
+msgid "Hostname"
+msgstr "Tên máy chủ"
+
+msgid "Hosts allow"
+msgstr "Máy chủ cho phép"
+
+msgid "Hosts deny"
+msgstr "Máy chủ từ chối"
+
+msgid "Hour"
+msgstr "Giờ"
+
+msgid "Hourly"
+msgstr "Hàng giờ"
+
+msgid "Hungary"
+msgstr "Hungary"
+
+msgid "Hybrid sleep"
+msgstr "Ngủ đông hỗn hợp"
+
+msgid "ID"
+msgstr "ID"
+
+msgid ""
+"IP addresses in CIDR notation or host names of clients that are allowed to "
+"access the NTP server."
+msgstr "Địa chỉ IP ở định dạng CIDR hoặc tên máy chủ của các máy khách được phép truy cập vào máy chủ NTP."
+
+msgid "IP addresses of domain name servers used to resolve host names."
+msgstr "Địa chỉ IP của các máy chủ tên miền được sử dụng để giải quyết tên máy chủ."
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "Iceland"
+msgstr "Islande"
+
+msgid "Identify"
+msgstr "Nhận diện"
+
+msgid "Identify As"
+msgstr "Nhận diện như"
+
+msgid "Identify network interface"
+msgstr "Nhận diện giao diện mạng"
+
+msgid "Idle"
+msgstr "Nhàn rỗi"
+
+msgid ""
+"If 'Guests allowed' is selected and no login credential is provided, then "
+"access as guest. Always access as guest when 'Guests only' is selecting; in "
+"this case no password is required to connect to the share."
+msgstr "Nếu \"Cho phép khách\" được chọn và không cung cấp thông tin đăng nhập, thì truy cập dưới danh nghĩa khách. Luôn truy cập dưới danh nghĩa khách khi \"Chỉ khách\" được chọn; trong trường hợp này không cần mật khẩu để kết nối với chia sẻ."
+
+msgid ""
+"If a device is not listed here, it is usually because the device already "
+"contains a file system or partitions. With the former, the file system can "
+"be mounted <a href='#/storage/filesystems/mount'>here<a>. For the latter, "
+"please <a href='#/storage/disks'>wipe<a> the device as partitions are not "
+"supported."
+msgstr "Nếu một thiết bị không được liệt kê ở đây, thường là vì thiết bị đó đã chứa một hệ thống tệp hoặc các phân vùng. Trong trường hợp đầu tiên, hệ thống tệp có thể được gắn <a href='#/storage/filesystems/mount'>tại đây<a>. Đối với trường hợp sau, vui lòng <a href='#/storage/disks'>xóa sạch<a> thiết bị vì các phân vùng không được hỗ trợ."
+
+msgid ""
+"If set then the client will be prompted to supply a user name and password "
+"to connect to the module."
+msgstr "Nếu được thiết lập, thì máy khách sẽ được yêu cầu cung cấp tên người dùng và mật khẩu để kết nối với mô-đun."
+
+msgid ""
+"If this option is set, the daemon will chroot to the shared folder path "
+"before starting the file transfer with the client. Then it is not possible "
+"to map users and groups by name and the daemon is not being able to follow "
+"symbolic links that are either absolute or outside of the new root path."
+msgstr "Nếu tùy chọn này được kích hoạt, daemon sẽ chroot vào đường dẫn thư mục chia sẻ trước khi bắt đầu chuyển tệp với máy khách. Khi đó, không thể ánh xạ người dùng và nhóm theo tên và daemon không thể theo dõi các liên kết biểu tượng mà là tuyệt đối hoặc ngoài đường dẫn gốc mới."
+
+msgid "If this option is set, then any attempted downloads will fail."
+msgstr "Nếu tùy chọn này được kích hoạt, thì mọi nỗ lực tải xuống sẽ thất bại."
+
+msgid "If this option is set, then any attempted uploads will fail."
+msgstr "Nếu tùy chọn này được kích hoạt, thì mọi nỗ lực tải lên sẽ thất bại."
+
+msgid ""
+"If this parameter is set, Samba attempts to first read DOS attributes "
+"(SYSTEM, HIDDEN, ARCHIVE or READ-ONLY) from a file system extended "
+"attribute, before mapping DOS attributes to UNIX permission bits. When set, "
+"DOS attributes will be stored onto an extended attribute in the UNIX file "
+"system, associated with the file or directory."
+msgstr "Nếu tham số này được thiết lập, Samba sẽ cố gắng đọc trước các thuộc tính DOS (HỆ THỐNG, ẨN, Lưu trữ hoặc Chỉ đọc) từ một thuộc tính mở rộng của hệ thống tệp, trước khi ánh xạ các thuộc tính DOS thành các bit quyền UNIX. Khi được thiết lập, các thuộc tính DOS sẽ được lưu trữ vào một thuộc tính mở rộng trong hệ thống tệp UNIX, liên kết với tệp hoặc thư mục."
+
+msgid ""
+"If this parameter is set, then users may not create or modify files in the "
+"share."
+msgstr "Nếu tham số này được thiết lập, thì người dùng không thể tạo hoặc sửa đổi tệp trong chia sẻ."
+
+msgid "Import"
+msgstr "Nhập khẩu"
+
+msgid "Imported SSH certificate."
+msgstr "Chứng chỉ SSH đã nhập khẩu."
+
+msgid "Imported SSL certificate."
+msgstr "Chứng chỉ SSL đã nhập khẩu."
+
+msgid "Imported groups."
+msgstr "Các nhóm đã nhập khẩu."
+
+msgid "Imported users."
+msgstr "Người dùng đã nhập khẩu."
+
+msgid "India"
+msgstr "Ấn Độ"
+
+msgid "Indicates whether updates are available."
+msgstr "Cho biết liệu có bản cập nhật nào có sẵn."
+
+msgid "Indonesia"
+msgstr "Indonesia"
+
+msgid "Information"
+msgstr "Thông tin"
+
+msgid "Inherit ACLs"
+msgstr "Kế thừa ACL"
+
+msgid "Inherit permissions"
+msgstr "Kế thừa quyền"
+
+msgid "Initializing"
+msgstr "Đang khởi tạo"
+
+msgid "Install"
+msgstr "Cài đặt"
+
+msgid "Install plugin"
+msgstr "Cài đặt plugin"
+
+msgid "Install updates"
+msgstr "Cài đặt bản cập nhật"
+
+msgid "Install updates from"
+msgstr "Cài đặt bản cập nhật từ"
+
+msgid "Installed"
+msgstr "Đã cài đặt"
+
+msgid ""
+"Installs the public SSH key on a remote system as an authorized key. Make "
+"sure password authentication is enabled on that remote system."
+msgstr "Cài đặt khóa SSH công khai trên một hệ thống từ xa như một khóa được ủy quyền. Đảm bảo rằng xác thực bằng mật khẩu được bật trên hệ thống từ xa đó."
+
+msgid "Interfaces"
+msgstr "Giao diện"
+
+msgid "Invalid IP address."
+msgstr "Địa chỉ IP không hợp lệ."
+
+msgid "Invalid NetBIOS name."
+msgstr "Tên NetBIOS không hợp lệ."
+
+msgid "Invalid PGP public key."
+msgstr "Khóa công khai PGP không hợp lệ."
+
+msgid "Invalid SSH public key (OpenSSH format)."
+msgstr "Khóa công khai SSH không hợp lệ (định dạng OpenSSH)."
+
+msgid "Invalid SSH public key (OpenSSH or RFC 4716 format)"
+msgstr "Khóa công khai SSH không hợp lệ (định dạng OpenSSH hoặc RFC 4716)"
+
+msgid "Invalid SSH public key (RFC 4716 format)."
+msgstr "Khóa công khai SSH không hợp lệ (định dạng RFC 4716)."
+
+msgid "Invalid User-Agent."
+msgstr "User-Agent không hợp lệ."
+
+msgid "Invalid domain name."
+msgstr "Tên miền không hợp lệ."
+
+msgid "Invalid group name."
+msgstr "Tên nhóm không hợp lệ."
+
+msgid "Invalid host name."
+msgstr "Tên máy chủ không hợp lệ."
+
+msgid "Invalid user name."
+msgstr "Tên người dùng không hợp lệ."
+
+msgid "Invalid user."
+msgstr "Người dùng không hợp lệ."
+
+msgid "Iran"
+msgstr "Iran"
+
+msgid "Iraq"
+msgstr "Iraq"
+
+msgid "Ireland"
+msgstr "Ireland"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid ""
+"It may take a while to detect the new devices, thus it might be necessary to"
+" reload the table several times. Do you want to proceed?"
+msgstr "Có thể mất một thời gian để phát hiện các thiết bị mới, vì vậy có thể cần phải tải lại bảng nhiều lần. Bạn có muốn tiếp tục không?"
+
+msgid "Italy"
+msgstr "Ý"
+
+msgid "Ivory Coast"
+msgstr "Bờ Biển Ngà"
+
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgid "January"
+msgstr "Tháng Một"
+
+msgid "Japan"
+msgstr "Nhật Bản"
+
+msgid "Johnston Island"
+msgstr "Đảo Johnston"
+
+msgid "Jordan"
+msgstr "Jordan"
+
+msgid "July"
+msgstr "Tháng Bảy"
+
+msgid "June"
+msgstr "Tháng Sáu"
+
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+msgid "Keep partially transferred files"
+msgstr "Giữ lại các tệp đã chuyển một phần"
+
+msgid "Kenya"
+msgstr "Kenya"
+
+msgid "Kernel"
+msgstr "Nền tảng"
+
+msgid "Key size"
+msgstr "Kích thước khóa"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgid "Kyrgyzstan"
+msgstr "Kirghizistan"
+
+msgid "LBA of first error"
+msgstr "LBA của lỗi đầu tiên"
+
+msgid "LVM logical volume %s [%s, %s]"
+msgstr "Volume logic LVM %s [%s, %s]"
+
+msgid "Label"
+msgstr "Nhãn"
+
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+msgid "Laos"
+msgstr "Lào"
+
+msgid "Latvia"
+msgstr "Latvia"
+
+msgid "Lebanon"
+msgstr "Liban"
+
+msgid ""
+"Length of time in seconds to blink one or more LEDs on the specific ethernet"
+" port."
+msgstr "Thời gian tính bằng giây để nhấp nháy một hoặc nhiều LED trên cổng Ethernet cụ thể."
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libya"
+msgstr "Libya"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Lifetime"
+msgstr "Thời gian sống"
+
+msgid "Limit custom"
+msgstr "Giới hạn tùy chỉnh"
+
+msgid "Limit daily"
+msgstr "Giới hạn hàng ngày"
+
+msgid "Limit hourly"
+msgstr "Giới hạn hàng giờ"
+
+msgid "Limit monthly"
+msgstr "Giới hạn hàng tháng"
+
+msgid "Limit weekly"
+msgstr "Giới hạn hàng tuần"
+
+msgid "Limit yearly"
+msgstr "Giới hạn hàng năm"
+
+msgid "Link"
+msgstr "Liên kết"
+
+msgid "List module"
+msgstr "Liệt kê mô-đun"
+
+msgid "Lithuania"
+msgstr "Lithuanie"
+
+msgid "Load Average"
+msgstr "Tải trung bình"
+
+msgid "Load average"
+msgstr "Tải trung bình"
+
+msgid "Loading ..."
+msgstr "Đang tải ..."
+
+msgid "Local"
+msgstr "Địa phương"
+
+msgid "Location"
+msgstr "Vị trí"
+
+msgid "Log in"
+msgstr "Đăng nhập"
+
+msgid "Log level"
+msgstr "Mức độ ghi log"
+
+msgid "Logout"
+msgstr "Đăng xuất"
+
+msgid "Logs"
+msgstr "Nhật ký"
+
+msgid "Long self-test"
+msgstr "Kiểm tra tự động dài"
+
+msgid "Loop device [%s, %s]"
+msgstr "Thiết bị vòng [%s, %s]"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "MAC"
+msgstr "MAC"
+
+msgid "MAC address"
+msgstr "Địa chỉ MAC"
+
+msgid "MII monitoring frequency"
+msgstr "Tần số giám sát MII"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Macao S.A.R., China"
+msgstr "Macao, Trung Quốc"
+
+msgid "Macedonia"
+msgstr "Macédoine"
+
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgid "Maintainer"
+msgstr "Người duy trì"
+
+msgid "Make sure that the guest user <em>nobody</em> can access the files."
+msgstr "Đảm bảo rằng người dùng khách <em>nobody</em> có thể truy cập các tệp."
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Malaysia"
+
+msgid "Maldives"
+msgstr "Maldives"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Management of CPUfreq settings."
+msgstr "Quản lý cài đặt CPUfreq."
+
+msgid "Management of scheduled tasks."
+msgstr "Quản lý các tác vụ đã lên lịch."
+
+msgid "Management of the file systems to be mounted."
+msgstr "Quản lý các hệ thống tệp cần được gắn."
+
+msgid "March"
+msgstr "Tháng Ba"
+
+msgid "Marshall Islands"
+msgstr "Quần đảo Marshall"
+
+msgid "Martinique"
+msgstr "Martinique"
+
+msgid ""
+"Match if the destination port is one of the given ports, e.g. 21 or !443 or "
+"1024-65535."
+msgstr "So khớp nếu cổng đích là một trong các cổng đã cho, ví dụ: 21 hoặc !443 hoặc 1024-65535."
+
+msgid ""
+"Match if the source port is one of the given ports, e.g. 21 or !443 or "
+"1024-65535."
+msgstr "So khớp nếu cổng nguồn là một trong các cổng đã cho, ví dụ: 21 hoặc !443 hoặc 1024-65535."
+
+msgid "Mauritania"
+msgstr "Mauritanie"
+
+msgid "Mauritius"
+msgstr "Île Maurice"
+
+msgid "Max. connections"
+msgstr "Kết nối tối đa"
+
+msgid "Maximum"
+msgstr "Tối đa"
+
+msgid "Maximum file size"
+msgstr "Kích thước tệp tối đa"
+
+msgid "Maximum performance, maximum acoustic output"
+msgstr "Hiệu suất tối đa, âm thanh tối đa"
+
+msgid "May"
+msgstr "Tháng Năm"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "Members"
+msgstr "Thành viên"
+
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+msgid "Memory Usage"
+msgstr "Sử dụng bộ nhớ"
+
+msgid "Memory usage"
+msgstr "Sử dụng bộ nhớ"
+
+msgid "Message"
+msgstr "Thông điệp"
+
+msgid "Messages"
+msgstr "Thông điệp"
+
+msgid "Method"
+msgstr "Phương pháp"
+
+msgid "Metric"
+msgstr "Đơn vị"
+
+msgid "Metropolitan France"
+msgstr "Pháp đại lục"
+
+msgid "Mexico"
+msgstr "Mexico"
+
+msgid "Micronesia"
+msgstr "Micronésie"
+
+msgid "Midway Islands"
+msgstr "Quần đảo Midway"
+
+msgid "Minimum"
+msgstr "Tối thiểu"
+
+msgid "Minimum performance, minimum acoustic output"
+msgstr "Hiệu suất tối thiểu, âm thanh tối thiểu"
+
+msgid "Minimum protocol version"
+msgstr "Phiên bản giao thức tối thiểu"
+
+msgid "Minute"
+msgstr "Phút"
+
+msgid "Missing"
+msgstr "Thiếu"
+
+msgid "Mode"
+msgstr "Chế độ"
+
+msgid "Model"
+msgstr "Mô hình"
+
+msgid "Modules"
+msgstr "Mô-đun"
+
+msgid "Moldova"
+msgstr "Moldavie"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Monday"
+msgstr "Thứ Hai"
+
+msgid "Mongolia"
+msgstr "Mongolie"
+
+msgid "Monitored"
+msgstr "Được giám sát"
+
+msgid "Monitoring"
+msgstr "Giám sát"
+
+msgid "Monitoring enabled"
+msgstr "Giám sát đã được kích hoạt"
+
+msgid "Month"
+msgstr "Tháng"
+
+msgid "Monthly"
+msgstr "Hàng tháng"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Morocco"
+msgstr "Maroc"
+
+msgid "Mount"
+msgstr "Gắn"
+
+msgid "Mount Options"
+msgstr "Tùy chọn gắn"
+
+msgid "Mount Point"
+msgstr "Điểm gắn"
+
+msgid "Mount an existing file system."
+msgstr "Gắn một hệ thống tệp hiện có."
+
+msgid "Mounted"
+msgstr "Đã gắn"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "NFS"
+msgstr "NFS"
+
+msgid "NTP time servers, separated by comma."
+msgstr "Máy chủ thời gian NTP, cách nhau bằng dấu phẩy."
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Namibia"
+msgstr "Namibia"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Hà Lan"
+
+msgid "Netherlands Antilles"
+msgstr "Antilles Hà Lan"
+
+msgid "Netmask"
+msgstr "Địa chỉ mạng"
+
+msgid "Network"
+msgstr "Mạng"
+
+msgid "Network Interfaces"
+msgstr "Giao diện mạng"
+
+msgid "Neutral Zone"
+msgstr "Khu vực trung lập"
+
+msgid "Never"
+msgstr "Không bao giờ"
+
+msgid "New Caledonia"
+msgstr "Tân Calédonie"
+
+msgid "New Zealand"
+msgstr "New Zealand"
+
+msgid "New package updates are available for installation."
+msgstr "Có bản cập nhật gói mới sẵn sàng để cài đặt."
+
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Niue"
+msgstr "Niuê"
+
+msgid "No"
+msgstr "Không"
+
+msgid "No access"
+msgstr "Không có quyền truy cập"
+
+msgid "No connections"
+msgstr "Không có kết nối"
+
+msgid "No data to display."
+msgstr "Không có dữ liệu để hiển thị."
+
+msgid "No monitored devices."
+msgstr "Không có thiết bị nào được giám sát."
+
+msgid "No users connected"
+msgstr "Không có người dùng nào kết nối"
+
+msgid "None"
+msgstr "Không có"
+
+msgid "Norfolk Island"
+msgstr "Đảo Norfolk"
+
+msgid "Normal"
+msgstr "Bình thường"
+
+msgid "North Korea"
+msgstr "Triều Tiên"
+
+msgid "North Vietnam"
+msgstr "Miền Bắc Việt Nam"
+
+msgid "Northern Mariana Islands"
+msgstr "Quần đảo Mariana phía Bắc"
+
+msgid "Norway"
+msgstr "Na Uy"
+
+msgid "Not ICMP"
+msgstr "Không phải ICMP"
+
+msgid "Not ICMPv6"
+msgstr "Không phải ICMPv6"
+
+msgid "Not TCP"
+msgstr "Không TCP"
+
+msgid "Not UDP"
+msgstr "Không UDP"
+
+msgid "Not mounted"
+msgstr "Chưa gắn"
+
+msgid "Not running"
+msgstr "Chưa chạy"
+
+msgid ""
+"Note that SMB1 is deprecated and should only be used in mandatory cases."
+msgstr "Lưu ý rằng SMB1 đã lỗi thời và chỉ nên được sử dụng trong trường hợp bắt buộc."
+
+msgid "Nothing"
+msgstr "Không có gì"
+
+msgid "Notification"
+msgstr "Thông báo"
+
+msgid "Notifications"
+msgstr "Thông báo"
+
+msgid "November"
+msgstr "Tháng Mười Một"
+
+msgid "Num"
+msgstr "Số"
+
+msgid "OK"
+msgstr "OK"
+
+msgid ""
+"Obsolete cached data found. Page will be reloaded. If the problem persists, "
+"press Ctrl-Shift-R or Ctrl-F5 to force a hard reload of the page."
+msgstr "Dữ liệu cache lỗi thời được tìm thấy. Trang sẽ được tải lại. Nếu vấn đề vẫn tiếp diễn, hãy nhấn Ctrl-Shift-R hoặc Ctrl-F5 để buộc tải lại trang."
+
+msgid "October"
+msgstr "Tháng Mười"
+
+msgid "Offline immediate test"
+msgstr "Kiểm tra ngay offline"
+
+msgid "Old-age"
+msgstr "Tuổi già"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Online"
+msgstr "Trực tuyến"
+
+msgid "Operation"
+msgstr "Hoạt động"
+
+msgid "Options"
+msgstr "Tùy chọn"
+
+msgid "Organization Name"
+msgstr "Tên tổ chức"
+
+msgid "Organization Unit"
+msgstr "Đơn vị tổ chức"
+
+msgid "Others"
+msgstr "Khác"
+
+msgid "Outgoing SMTP mail server address, e.g. smtp.mycorp.com."
+msgstr "Địa chỉ máy chủ email SMTP đầu ra, ví dụ: smtp.mycorp.com."
+
+msgid "Outlying Oceania"
+msgstr "Oceania xa xôi"
+
+msgid "Owner"
+msgstr "Chủ sở hữu"
+
+msgid "Pacific Islands Trust Territory"
+msgstr "Lãnh thổ ủy thác các đảo Thái Bình Dương"
+
+msgid "Package Information"
+msgstr "Thông tin gói"
+
+msgid "Package management."
+msgstr "Quản lý gói."
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Palau"
+msgstr "Palao"
+
+msgid "Palestinian Territory"
+msgstr "Lãnh thổ Palestine"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Panama Canal Zone"
+msgstr "Khu vực kênh Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Parent Device"
+msgstr "Thiết bị cha"
+
+msgid "Parent UUID"
+msgstr "UUID Cha"
+
+msgid "Parent device"
+msgstr "Thiết bị cha"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Password authentication"
+msgstr "Xác thực bằng mật khẩu"
+
+msgid "Password does not match."
+msgstr "Mật khẩu không khớp."
+
+msgid "Password doesn't match."
+msgstr "Mật khẩu không khớp."
+
+msgid "Paste a RSA or ECC certificate in X.509 PEM format here."
+msgstr "Dán chứng chỉ RSA hoặc ECC ở định dạng X.509 PEM vào đây."
+
+msgid "Paste a RSA or ECC private key in X.509 PEM format here."
+msgstr "Dán khóa riêng RSA hoặc ECC ở định dạng X.509 PEM vào đây."
+
+msgid "Pending configuration changes"
+msgstr "Thay đổi cấu hình đang chờ"
+
+msgid "People's Democratic Republic of Yemen"
+msgstr "Cộng hòa Dân chủ Nhân dân Yemen"
+
+msgid "Perform a trial run with no changes made"
+msgstr "Thực hiện một lần thử mà không có thay đổi nào"
+
+msgid "Performance Statistics"
+msgstr "Thống kê hiệu suất"
+
+msgid "Period of validity"
+msgstr "Thời gian hiệu lực"
+
+msgid "Permission"
+msgstr "Quyền"
+
+msgid "Permissions"
+msgstr "Quyền"
+
+msgid "Permissions of group."
+msgstr "Quyền của nhóm."
+
+msgid "Permissions of others (e.g. anonymous FTP users)."
+msgstr "Quyền của người khác (ví dụ: người dùng FTP ẩn danh)."
+
+msgid "Permissions of owner."
+msgstr "Quyền của chủ sở hữu."
+
+msgid "Permit root login"
+msgstr "Cho phép đăng nhập root"
+
+msgid "Permit to do SSH tunneling."
+msgstr "Cho phép thực hiện tunneling SSH."
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Philippines"
+
+msgid "Pitcairn"
+msgstr "Đảo Pitcairn"
+
+msgid ""
+"Please check the <a href=\"http://www.samba.org/ftp/rsync/rsync.html\" "
+"target=\"_blank\">manual page</a> for more details."
+msgstr "Vui lòng kiểm tra <a href=\"http://www.samba.org/ftp/rsync/rsync.html\" target=\"_blank\">trang hướng dẫn</a> để biết thêm chi tiết."
+
+msgid ""
+"Please check the <a href=\"http://www.samba.org/ftp/rsync/rsyncd.conf.html\""
+" target=\"_blank\">manual page</a> for more details."
+msgstr "Vui lòng kiểm tra <a href=\"http://www.samba.org/ftp/rsync/rsyncd.conf.html\" target=\"_blank\">trang hướng dẫn</a> để biết thêm chi tiết."
+
+msgid ""
+"Please check the <a href=\"https://man.openbsd.org/sshd_config.5\" "
+"target=\"_blank\">manual page</a> for more details."
+msgstr "Vui lòng kiểm tra <a href=\"https://man.openbsd.org/sshd_config.5\" target=\"_blank\">trang hướng dẫn</a> để biết thêm chi tiết."
+
+msgid ""
+"Please check the <a "
+"href='http://www.samba.org/samba/docs/man/manpages-3/smb.conf.5.html' "
+"target='_blank'>manual page</a> for more details."
+msgstr "Vui lòng kiểm tra <a href='http://www.samba.org/samba/docs/man/manpages-3/smb.conf.5.html' target='_blank'>trang hướng dẫn</a> để biết thêm chi tiết."
+
+msgid ""
+"Please check the <a href='https://manpages.debian.org/nfs-kernel-"
+"server/exports.5.html' target='_blank'>manual page</a> for more details."
+msgstr "Vui lòng kiểm tra <a href='https://manpages.debian.org/nfs-kernel-server/exports.5.html' target='_blank'>trang hướng dẫn</a> để biết thêm chi tiết."
+
+msgid "Please choose the method to wipe the device."
+msgstr "Vui lòng chọn phương pháp để xóa thiết bị."
+
+msgid "Please wait ..."
+msgstr "Vui lòng chờ ..."
+
+msgid "Please wait, a shared folder will be created ..."
+msgstr "Vui lòng chờ, một thư mục chia sẻ sẽ được tạo ..."
+
+msgid "Please wait, a snapshot will be created ..."
+msgstr "Vui lòng chờ, một ảnh chụp sẽ được tạo ..."
+
+msgid "Please wait, deleting selected item(s) ..."
+msgstr "Vui lòng chờ, đang xóa mục được chọn ..."
+
+msgid "Please wait, identifying network device ..."
+msgstr "Vui lòng chờ, đang xác định thiết bị mạng ..."
+
+msgid "Please wait, installing public SSH key on remote system ..."
+msgstr "Vui lòng chờ, đang cài đặt khóa SSH công khai trên hệ thống từ xa ..."
+
+msgid "Please wait, processing selected item(s) ..."
+msgstr "Vui lòng chờ, đang xử lý mục được chọn ..."
+
+msgid "Please wait, reverting configuration changes ..."
+msgstr "Vui lòng chờ, đang hoàn tác các thay đổi cấu hình ..."
+
+msgid "Please wait, sending a test email ..."
+msgstr "Vui lòng chờ, đang gửi email thử nghiệm ..."
+
+msgid "Please wait, the configuration changes are being applied ..."
+msgstr "Vui lòng chờ, các thay đổi cấu hình đang được áp dụng ..."
+
+msgid "Please wait, the data is being loaded ..."
+msgstr "Vui lòng chờ, dữ liệu đang được tải ..."
+
+msgid "Please wait, the statistic graphs will be regenerated ..."
+msgstr "Vui lòng chờ, các biểu đồ thống kê đang được tái tạo ..."
+
+msgid "Please wait, unmounting the file system ..."
+msgstr "Vui lòng chờ, đang tháo gỡ hệ thống tệp ..."
+
+msgid "Please wait, updating access control lists ..."
+msgstr "Vui lòng chờ, đang cập nhật danh sách kiểm soát truy cập ..."
+
+msgid "Please wait, updating the permissions ..."
+msgstr "Vui lòng chờ, đang cập nhật quyền ..."
+
+msgid "Plugins"
+msgstr "Tiện ích mở rộng"
+
+msgid "Poland"
+msgstr "Ba Lan"
+
+msgid "Port"
+msgstr "Cổng"
+
+msgid "Portugal"
+msgstr "Bồ Đào Nha"
+
+msgid "Power"
+msgstr "Nguồn"
+
+msgid "Power Management"
+msgstr "Quản lý nguồn"
+
+msgid "Power Mode"
+msgstr "Chế độ nguồn"
+
+msgid "Power Off"
+msgstr "Tắt nguồn"
+
+msgid "Power button"
+msgstr "Nút nguồn"
+
+msgid "Power cycle count"
+msgstr "Số lần chu kỳ nguồn"
+
+msgid "Power mode"
+msgstr "Chế độ nguồn"
+
+msgid "Powered on"
+msgstr "Đang hoạt động"
+
+msgid "Pre-release updates"
+msgstr "Cập nhật trước khi phát hành"
+
+msgid "Prefail"
+msgstr "Tiền thất bại"
+
+msgid "Prefix address"
+msgstr "Địa chỉ tiền tố"
+
+msgid "Prefix length"
+msgstr "Độ dài tiền tố"
+
+msgid "Preserve ACLs"
+msgstr "Giữ nguyên ACL"
+
+msgid "Preserve extended attributes"
+msgstr "Giữ nguyên thuộc tính mở rộng"
+
+msgid "Preserve group"
+msgstr "Giữ nguyên nhóm"
+
+msgid "Preserve modification times"
+msgstr "Giữ nguyên thời gian sửa đổi"
+
+msgid "Preserve owner"
+msgstr "Giữ nguyên chủ sở hữu"
+
+msgid "Preserve permissions"
+msgstr "Giữ nguyên quyền"
+
+msgid ""
+"Prevent a disk from being spun-up when it is periodically "
+"polled.<ul><li>Never - Poll (check) the device regardless of its power mode."
+" This may cause a disk which is spun-down to be spun-up when it is "
+"checked.</li><li>Sleep - Check the device unless it is in SLEEP "
+"mode.</li><li>Standby - Check the device unless it is in SLEEP or STANDBY "
+"mode. In these modes most disks are not spinning, so if you want to prevent "
+"a disk from spinning up each poll, this is probably what you "
+"want.</li><li>Idle - Check the device unless it is in SLEEP, STANDBY or IDLE"
+" mode. In the IDLE state, most disks are still spinning, so this is probably"
+" not what you want.</li></ul>"
+msgstr "Ngăn chặn một ổ đĩa khỏi việc quay khi nó được kiểm tra định kỳ.<ul><li>Không bao giờ - Kiểm tra (poll) thiết bị bất kể chế độ nguồn của nó. Điều này có thể khiến ổ đĩa không quay bị khởi động lại khi được kiểm tra.</li><li>Ngủ (Sleep) - Kiểm tra thiết bị trừ khi nó ở chế độ ngủ.</li><li>Chờ (Standby) - Kiểm tra thiết bị trừ khi nó ở chế độ ngủ hoặc chờ. Trong những chế độ này, hầu hết các ổ đĩa không quay, vì vậy nếu bạn muốn ngăn chặn ổ đĩa quay mỗi lần kiểm tra, đây có thể là những gì bạn muốn.</li><li>Nhàn rỗi (Idle) - Kiểm tra thiết bị trừ khi nó ở chế độ ngủ, chờ hoặc nhàn rỗi. Trong trạng thái nhàn rỗi, hầu hết các ổ đĩa vẫn quay, vì vậy điều này có thể không phải là điều bạn muốn.</li></ul>"
+
+msgid "Primary"
+msgstr "Chính"
+
+msgid "Primary email"
+msgstr "Email chính"
+
+msgid "Private key"
+msgstr "Khóa riêng"
+
+msgid "Process monitoring"
+msgstr "Giám sát quy trình"
+
+msgid "Processes"
+msgstr "Quá trình"
+
+msgid "Processor"
+msgstr "Bộ xử lý"
+
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgid "Protocol"
+msgstr "Giao thức"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Public"
+msgstr "Công khai"
+
+msgid "Public key"
+msgstr "Khóa công khai"
+
+msgid "Public key authentication"
+msgstr "Xác thực bằng khóa công khai"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+msgid "Pull"
+msgstr "Kéo"
+
+msgid "Push"
+msgstr "Đẩy"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Quick"
+msgstr "Nhanh"
+
+msgid "Quota"
+msgstr "Hạn mức"
+
+msgid "RSync server"
+msgstr "Máy chủ RSync"
+
+msgid "Raw value"
+msgstr "Giá trị thô"
+
+msgid "Read only"
+msgstr "Chỉ đọc"
+
+msgid "Read-only"
+msgstr "Chỉ đọc"
+
+msgid "Read/Execute"
+msgstr "Đọc/Thực thi"
+
+msgid "Read/Write"
+msgstr "Đọc/Ghi"
+
+msgid "Read/Write/Execute"
+msgstr "Đọc/Ghi/Thực thi"
+
+msgid "Reboot"
+msgstr "Khởi động lại"
+
+msgid "Recipient"
+msgstr "Người nhận"
+
+msgid "Recurse into directories"
+msgstr "Xử lý đệ quy trong các thư mục"
+
+msgid "Recursive"
+msgstr "Đệ quy"
+
+msgid "Referenced"
+msgstr "Tham chiếu"
+
+msgid "Relative Path"
+msgstr "Đường dẫn tương đối"
+
+msgid "Relative path"
+msgstr "Đường dẫn tương đối"
+
+msgid "Reload"
+msgstr "Tải lại"
+
+msgid "Remaining"
+msgstr "Còn lại"
+
+msgid "Remote"
+msgstr "Từ xa"
+
+msgid "Replace"
+msgstr "Thay thế"
+
+msgid "Replace all existing permissions."
+msgstr "Thay thế tất cả các quyền hiện có."
+
+msgid "Report"
+msgstr "Báo cáo"
+
+msgid ""
+"Report if the temperature had changed by at least N degrees Celsius since "
+"last report."
+msgstr "Báo cáo nếu nhiệt độ đã thay đổi ít nhất N độ C kể từ báo cáo trước."
+
+msgid ""
+"Report if the temperature is greater than or equal to N degrees Celsius."
+msgstr "Báo cáo nếu nhiệt độ lớn hơn hoặc bằng N độ C."
+
+msgid "Repository"
+msgstr "Kho lưu trữ"
+
+msgid "Reset UI to defaults"
+msgstr "Đặt lại giao diện về mặc định"
+
+msgid "Result"
+msgstr "Kết quả"
+
+msgid "Retention period"
+msgstr "Thời gian lưu giữ"
+
+msgid "Retention time"
+msgstr "Thời gian lưu giữ"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Reverted the configuration changes."
+msgstr "Đã hoàn tác các thay đổi cấu hình."
+
+msgid "Romania"
+msgstr "Romania"
+
+msgid "Row No."
+msgstr "Số hàng"
+
+msgid "Rsync"
+msgstr "Rsync"
+
+msgid "Rsync - Jobs"
+msgstr "Rsync - Công việc"
+
+msgid "Rsync - Server"
+msgstr "Rsync - Máy chủ"
+
+msgid "Rules"
+msgstr "Quy tắc"
+
+msgid "Run"
+msgstr "Chạy"
+
+msgid "Run rsync task"
+msgstr "Chạy tác vụ rsync"
+
+msgid "Run scheduled task"
+msgstr "Chạy tác vụ đã lên lịch"
+
+msgid "Running"
+msgstr "Đang chạy"
+
+msgid "Russia"
+msgstr "Nga"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "S.M.A.R.T."
+msgstr "S.M.A.R.T."
+
+msgid "S.M.A.R.T. Status"
+msgstr "Trạng thái S.M.A.R.T."
+
+msgid "S.M.A.R.T. monitoring must be activated for the selected device."
+msgstr "Giám sát S.M.A.R.T. phải được kích hoạt cho thiết bị đã chọn."
+
+msgid "SMB/CIFS"
+msgstr "SMB/CIFS"
+
+msgid "SMB/CIFS - Audit"
+msgstr "SMB/CIFS - Kiểm toán"
+
+msgid "SMB/CIFS file, print, and login server for Unix."
+msgstr "Máy chủ tệp, in ấn và đăng nhập SMB/CIFS cho Unix."
+
+msgid "SMTP port"
+msgstr "Cổng SMTP"
+
+msgid "SMTP server"
+msgstr "Máy chủ SMTP"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "SSH certificate"
+msgstr "Chứng chỉ SSH"
+
+msgid "SSH port"
+msgstr "Cổng SSH"
+
+msgid "SSH public key"
+msgstr "Khóa công khai SSH"
+
+msgid "SSH public keys"
+msgstr "Các khóa công khai SSH"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+msgid "SSL/TLS enabled"
+msgstr "SSL/TLS đã kích hoạt"
+
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+msgid "Saint Helena"
+msgstr "Thánh Helena"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts và Nevis"
+
+msgid "Saint Lucia"
+msgstr "Thánh Lucia"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre và Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent và Grenadines"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "San Marino"
+msgstr "San Marino"
+
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome và Principe"
+
+msgid "Saturday"
+msgstr "Thứ Bảy"
+
+msgid "Saudi Arabia"
+msgstr "Ả Rập Saudi"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Scan for new devices"
+msgstr "Quét tìm thiết bị mới"
+
+msgid "Scanning for new devices ..."
+msgstr "Đang quét tìm thiết bị mới ..."
+
+msgid "Scheduled Tasks"
+msgstr "Công việc đã lên lịch"
+
+msgid "Scheduling"
+msgstr "Lên lịch"
+
+msgid "Search domains"
+msgstr "Tìm kiếm miền"
+
+msgid "Secondary email"
+msgstr "Email phụ"
+
+msgid "Seconds"
+msgstr "Giây"
+
+msgid "Section"
+msgstr "Phần"
+
+msgid "Secure"
+msgstr "Bảo mật"
+
+msgid "Secure connection"
+msgstr "Kết nối bảo mật"
+
+msgid "Security"
+msgstr "Bảo mật"
+
+msgid "Select a country ..."
+msgstr "Chọn một quốc gia ..."
+
+msgid "Select a device ..."
+msgstr "Chọn một thiết bị ..."
+
+msgid "Select a file system ..."
+msgstr "Chọn một hệ thống tệp ..."
+
+msgid "Select a group ..."
+msgstr "Chọn một nhóm ..."
+
+msgid "Select a shared folder ..."
+msgstr "Chọn một thư mục chia sẻ ..."
+
+msgid "Select a shell ..."
+msgstr "Chọn một shell ..."
+
+msgid "Select a system log ..."
+msgstr "Chọn một nhật ký hệ thống ..."
+
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+msgid "Select an authentication mode ..."
+msgstr "Chọn một chế độ xác thực ..."
+
+msgid "Select an user ..."
+msgstr "Chọn một người dùng ..."
+
+msgid "Select devices ..."
+msgstr "Chọn các thiết bị ..."
+
+msgid "Select groups ..."
+msgstr "Chọn các nhóm ..."
+
+msgid "Select interface devices ..."
+msgstr "Chọn các thiết bị giao diện ..."
+
+msgid "Select members ..."
+msgstr "Chọn các thành viên ..."
+
+msgid "Select permissions ..."
+msgstr "Chọn quyền ..."
+
+msgid "Select slave devices ..."
+msgstr "Chọn các thiết bị phụ ..."
+
+msgid "Select the device that will be used to create the file system."
+msgstr "Chọn thiết bị sẽ được sử dụng để tạo hệ thống tệp."
+
+msgid "Select the devices that will be used to create the file system."
+msgstr "Chọn các thiết bị sẽ được sử dụng để tạo hệ thống tệp."
+
+msgid "Self-Test Logs"
+msgstr "Nhật ký tự kiểm tra"
+
+msgid ""
+"Send a notification when the used file system capacity exceeds the specified"
+" threshold."
+msgstr "Gửi thông báo khi dung lượng hệ thống tệp sử dụng vượt quá ngưỡng đã chỉ định."
+
+msgid "Send command output via email"
+msgstr "Gửi đầu ra lệnh qua email"
+
+msgid "Sender email"
+msgstr "Email người gửi"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "September"
+msgstr "Tháng Chín"
+
+msgid "Serbia And Montenegro"
+msgstr "Serbia và Montenegro"
+
+msgid "Serial Number"
+msgstr "Số sê-ri"
+
+msgid "Serial number"
+msgstr "Số sê-ri"
+
+msgid "Server"
+msgstr "Máy chủ"
+
+msgid "Service"
+msgstr "Dịch vụ"
+
+msgid "Service disabled"
+msgstr "Dịch vụ đã tắt"
+
+msgid "Services"
+msgstr "Dịch vụ"
+
+msgid "Session expired."
+msgstr "Phiên làm việc đã hết hạn."
+
+msgid "Session not authenticated."
+msgstr "Phiên làm việc không được xác thực."
+
+msgid ""
+"Set the destination permissions to be the same as the source permissions."
+msgstr "Đặt quyền của đích giống như quyền của nguồn."
+
+msgid ""
+"Set the group of the destination file to be the same as the source file."
+msgstr "Đặt nhóm của tệp đích giống như tệp nguồn."
+
+msgid ""
+"Set the owner of the destination file to be the same as the source file, but"
+" only if the receiving rsync is being run as the super-user."
+msgstr "Đặt chủ sở hữu của tệp đích giống như tệp nguồn, nhưng chỉ khi rsync nhận được chạy với quyền super-user."
+
+msgid "Sets the interval between disk checks to N seconds."
+msgstr "Đặt khoảng thời gian giữa các lần kiểm tra đĩa là N giây."
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgid "Share"
+msgstr "Chia sẻ"
+
+msgid "Shared Folders"
+msgstr "Thư mục chia sẻ"
+
+msgid "Shared folder"
+msgstr "Thư mục chia sẻ"
+
+msgid "Shared folder name"
+msgstr "Tên thư mục chia sẻ"
+
+msgid "Shared folder path"
+msgstr "Đường dẫn thư mục chia sẻ"
+
+msgid "Shared folder permissions"
+msgstr "Quyền thư mục chia sẻ"
+
+msgid "Shared folder permissions have been copied."
+msgstr "Quyền thư mục chia sẻ đã được sao chép."
+
+msgid "Shares"
+msgstr "Chia sẻ"
+
+msgid "Shell"
+msgstr "Shell"
+
+msgid "Short self-test"
+msgstr "Kiểm tra tự động ngắn"
+
+msgid "Show changelog"
+msgstr "Hiển thị nhật ký thay đổi"
+
+msgid "Show details"
+msgstr "Xem chi tiết"
+
+msgid "Show/Hide columns"
+msgstr "Hiển thị/Ẩn cột"
+
+msgid "Show/Hide navigation"
+msgstr "Hiển thị/Ẩn điều hướng"
+
+msgid "Shutdown"
+msgstr "Tắt máy"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "Singapore"
+msgstr "Singapore"
+
+msgid "Size"
+msgstr "Kích thước"
+
+msgid "Slaves"
+msgstr "Thiết bị phụ"
+
+msgid "Sleep"
+msgstr "Ngủ"
+
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgid "Snapshots"
+msgstr "Ảnh chụp"
+
+msgid "Software Failure.   Press left mouse button to continue."
+msgstr "Lỗi phần mềm.   Nhấn nút trái chuột để tiếp tục."
+
+msgid "Solomon Islands"
+msgstr "Quần đảo Solomon"
+
+msgid "Somalia"
+msgstr "Somalia"
+
+msgid "Source"
+msgstr "Nguồn"
+
+msgid ""
+"Source address can be either a network IP address (with /mask), a IP range "
+"or a plain IP address. A \"!\" argument before the address specification "
+"inverts the sense of the address."
+msgstr "Địa chỉ nguồn có thể là địa chỉ IP mạng (với /mặt nạ), một khoảng địa chỉ IP hoặc một địa chỉ IP đơn lẻ. Một đối số \"!\" trước phần chỉ định địa chỉ sẽ đảo ngược ý nghĩa của địa chỉ."
+
+msgid "Source port"
+msgstr "Cổng nguồn"
+
+msgid "Source server"
+msgstr "Máy chủ nguồn"
+
+msgid "Source shared folder"
+msgstr "Thư mục chia sẻ nguồn"
+
+msgid "South Africa"
+msgstr "Nam Phi"
+
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Georgia thuộc Nam và Quần đảo Sandwich thuộc Nam"
+
+msgid "South Korea"
+msgstr "Hàn Quốc"
+
+msgid "Spain"
+msgstr "Tây Ban Nha"
+
+msgid "Specifies the MII link monitoring frequency in milliseconds."
+msgstr "Chỉ định tần suất giám sát liên kết MII tính bằng mili giây."
+
+msgid "Specifies the interface devices."
+msgstr "Chỉ định các thiết bị giao diện."
+
+msgid "Specifies the slave devices."
+msgstr "Chỉ định các thiết bị phụ."
+
+msgid ""
+"Specifies the time, in milliseconds, to wait before disabling a slave after "
+"a link failure has been detected."
+msgstr "Chỉ định thời gian, tính bằng mili giây, để chờ trước khi tắt một thiết bị phụ sau khi phát hiện lỗi liên kết."
+
+msgid ""
+"Specifies the time, in milliseconds, to wait before enabling a slave after a"
+" link recovery has been detected."
+msgstr "Chỉ định thời gian, tính bằng mili giây, để chờ trước khi kích hoạt một thiết bị phụ sau khi phát hiện phục hồi liên kết."
+
+msgid "Specifies the type of key to create."
+msgstr "Chỉ định loại khóa để tạo."
+
+msgid "Specifies whether it is allowed to login as superuser."
+msgstr "Chỉ định liệu có cho phép đăng nhập với quyền superuser hay không."
+
+msgid ""
+"Specifies whether the system performance statistics are collected "
+"periodically."
+msgstr "Chỉ định liệu có thu thập thống kê hiệu suất hệ thống theo định kỳ hay không."
+
+msgid ""
+"Specifies whether to monitor the system status and select the most "
+"appropriate CPU level."
+msgstr "Chỉ định liệu có giám sát trạng thái hệ thống và chọn mức CPU phù hợp nhất hay không."
+
+msgid "Specifies which slave is the primary device."
+msgstr "Chỉ định thiết bị phụ nào là thiết bị chính."
+
+msgid "Speed"
+msgstr "Tốc độ"
+
+msgid "Spindown time"
+msgstr "Thời gian quay chậm"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Standby"
+msgstr "Chế độ chờ"
+
+msgid "Standby mode"
+msgstr "Chế độ chờ"
+
+msgid "Start"
+msgstr "Bắt đầu"
+
+msgid "State"
+msgstr "Tiểu bang"
+
+msgid "State/Province"
+msgstr "Tiểu bang/Tỉnh"
+
+msgid "Static"
+msgstr "Tĩnh"
+
+msgid "Statistics collection and monitoring daemon."
+msgstr "Quá trình thu thập và giám sát thống kê."
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Stop"
+msgstr "Dừng"
+
+msgid "Storage"
+msgstr "Lưu trữ"
+
+msgid "Store DOS attributes"
+msgstr "Lưu thuộc tính DOS"
+
+msgid "Success"
+msgstr "Thành công"
+
+msgid "Sudan"
+msgstr "Sudan"
+
+msgid "Summary"
+msgstr "Tóm tắt"
+
+msgid "Sunday"
+msgstr "Chủ nhật"
+
+msgid "Support name resolution and network discovery for legacy systems."
+msgstr "Hỗ trợ phân giải tên và phát hiện mạng cho các hệ thống cũ."
+
+msgid "Suppress non-error messages"
+msgstr "Ẩn các thông điệp không phải lỗi"
+
+msgid "Suriname"
+msgstr "Suriname"
+
+msgid "Suspend"
+msgstr "Tạm ngưng"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard và Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgid "Sweden"
+msgstr "Thụy Điển"
+
+msgid "Switzerland"
+msgstr "Thụy Sĩ"
+
+msgid "Syria"
+msgstr "Syria"
+
+msgid "Syslog"
+msgstr "Syslog"
+
+msgid "System"
+msgstr "Hệ thống"
+
+msgid "System Information"
+msgstr "Thông tin hệ thống"
+
+msgid "System Logs"
+msgstr "Nhật ký hệ thống"
+
+msgid "System Time"
+msgstr "Thời gian hệ thống"
+
+msgid "System account"
+msgstr "Tài khoản hệ thống"
+
+msgid "System clock synchronization client and server."
+msgstr "Máy khách và máy chủ đồng bộ hóa đồng hồ hệ thống."
+
+msgid ""
+"System monitoring is disabled. To enable it, please go to the <a "
+"href='#/system/monitoring'>settings page</a>."
+msgstr "Giám sát hệ thống đã bị tắt. Để kích hoạt, vui lòng truy cập vào <a href='#/system/monitoring'>trang cài đặt</a>."
+
+msgid "System restart required"
+msgstr "Cần khởi động lại hệ thống"
+
+msgid "System time"
+msgstr "Thời gian hệ thống"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "TCP forwarding"
+msgstr "Chuyển tiếp TCP"
+
+msgid "Tags"
+msgstr "Thẻ"
+
+msgid "Taiwan"
+msgstr "Đài Loan"
+
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+msgid ""
+"Take caution when setting this polling interval to more than sixty minutes. "
+"The poll times may fail to coincide with any of the scheduled test that have"
+" been specified. In this case the scheduled test will be run following the "
+"next device polling."
+msgstr "Hãy cẩn thận khi đặt khoảng thời gian lấy mẫu này trên 60 phút. Thời gian lấy mẫu có thể không trùng với bất kỳ bài kiểm tra nào đã được lên lịch. Trong trường hợp này, bài kiểm tra đã lên lịch sẽ được thực hiện sau lần lấy mẫu thiết bị tiếp theo."
+
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgid "Tasks"
+msgstr "Nhiệm vụ"
+
+msgid "Temperature"
+msgstr "Nhiệt độ"
+
+msgid "Temperature monitoring"
+msgstr "Giám sát nhiệt độ"
+
+msgid "Test"
+msgstr "Kiểm tra"
+
+msgid "Thailand"
+msgstr "Thái Lan"
+
+msgid "The NFS versions provided by the service."
+msgstr "Các phiên bản NFS do dịch vụ cung cấp."
+
+msgid "The NT description field."
+msgstr "Trường mô tả NT."
+
+msgid "The RSA key length."
+msgstr "Chiều dài khóa RSA."
+
+msgid "The SSH certificate used for authentication."
+msgstr "Chứng chỉ SSH được sử dụng để xác thực."
+
+msgid "The SSH public key in OpenSSH or RFC 4716 format."
+msgstr "Khóa công khai SSH ở định dạng OpenSSH hoặc RFC 4716."
+
+msgid "The action to be done when pressing the power button."
+msgstr "Hành động được thực hiện khi nhấn nút nguồn."
+
+msgid ""
+"The dashboard has not yet been configured. To personalize it, please go to "
+"the <a href='#/dashboard/settings'>settings page</a>."
+msgstr "Bảng điều khiển vẫn chưa được cấu hình. Để cá nhân hóa nó, vui lòng truy cập vào <a href='#/dashboard/settings'>trang cài đặt</a>."
+
+msgid "The data has been copied to the clipboard."
+msgstr "Dữ liệu đã được sao chép vào bảng tạm."
+
+msgid "The default SMTP mail server port, e.g. 25, 465 or 587."
+msgstr "Cổng máy chủ email SMTP mặc định, ví dụ: 25, 465 hoặc 587."
+
+msgid ""
+"The destination remote server, e.g. [USER@]HOST:DEST, [USER@]HOST::DEST or "
+"rsync://[USER@]HOST[:PORT]/DEST."
+msgstr "Máy chủ từ xa đích, ví dụ: [USER@]HOST:DEST, [USER@]HOST::DEST hoặc rsync://[USER@]HOST[:PORT]/DEST."
+
+msgid "The field should only contain * or a comma separated list of values."
+msgstr "Trường này chỉ nên chứa * hoặc danh sách các giá trị được phân cách bởi dấu phẩy."
+
+msgid "The file mode of the shared folder path."
+msgstr "Chế độ tệp của đường dẫn thư mục chia sẻ."
+
+msgid "The file system on which the shared folder is to be created."
+msgstr "Hệ thống tệp mà thư mục chia sẻ sẽ được tạo ra."
+
+msgid "The file system to mount."
+msgstr "Hệ thống tệp để gắn."
+
+msgid "The following modules will be updated:"
+msgstr "Các mô-đun sau sẽ được cập nhật:"
+
+msgid "The hostname is a label that identifies the system to the network."
+msgstr "Tên máy chủ là một nhãn xác định hệ thống trên mạng."
+
+msgid "The hostname of the remote system."
+msgstr "Tên máy chủ của hệ thống từ xa."
+
+msgid ""
+"The information about available software is out-of-date. Do you want to "
+"reload this information?"
+msgstr "Thông tin về phần mềm có sẵn đã lỗi thời. Bạn có muốn tải lại thông tin này không?"
+
+msgid "The location of the files to share."
+msgstr "Vị trí của các tệp để chia sẻ."
+
+msgid ""
+"The location of the files to share. The share will be accessible at "
+"/export/<name>."
+msgstr "Vị trí của các tệp để chia sẻ. Các phần chia sẻ sẽ có thể truy cập tại /export/<name>."
+
+msgid "The location of the user home directories."
+msgstr "Vị trí của các thư mục chính của người dùng."
+
+msgid ""
+"The maximum transmission unit in bytes to set for the device. Set to 0 to "
+"use the default value."
+msgstr "Đơn vị truyền tải tối đa tính bằng byte để đặt cho thiết bị. Đặt thành 0 để sử dụng giá trị mặc định."
+
+msgid "The name of the share."
+msgstr "Tên của phần chia sẻ."
+
+msgid "The number of custom snapshots to keep."
+msgstr "Số lượng ảnh chụp tùy chỉnh cần giữ lại."
+
+msgid "The number of daily snapshots to keep."
+msgstr "Số lượng ảnh chụp hàng ngày cần giữ lại."
+
+msgid "The number of days the certificate is valid for."
+msgstr "Số ngày chứng chỉ có hiệu lực."
+
+msgid "The number of hourly snapshots to keep."
+msgstr "Số lượng ảnh chụp hàng giờ cần giữ lại."
+
+msgid "The number of monthly snapshots to keep."
+msgstr "Số lượng ảnh chụp hàng tháng cần giữ lại."
+
+msgid "The number of weekly snapshots to keep."
+msgstr "Số lượng ảnh chụp hàng tuần cần giữ lại."
+
+msgid "The number of yearly snapshots to keep."
+msgstr "Số lượng ảnh chụp hàng năm cần giữ lại."
+
+msgid ""
+"The password that is used for access via rsync daemon. Note, this is not "
+"used for remote shell transport such as SSH."
+msgstr "Mật khẩu được sử dụng để truy cập qua tiến trình rsync. Lưu ý, điều này không được sử dụng cho việc truyền shell từ xa như SSH."
+
+msgid ""
+"The permissions on new files and directories are normally governed by create"
+" mask and directory mask but the inherit permissions parameter overrides "
+"this. This can be particularly useful on systems with many users to allow a "
+"single share to be used flexibly by each user."
+msgstr "Quyền trên các tệp và thư mục mới thường được quy định bởi mặt nạ tạo và mặt nạ thư mục, nhưng tham số quyền kế thừa sẽ ghi đè điều này. Điều này có thể đặc biệt hữu ích trên các hệ thống có nhiều người dùng để cho phép một thư mục chia sẻ được sử dụng linh hoạt bởi mỗi người dùng."
+
+msgid "The port on which SSH is running on the remote system."
+msgstr "Cổng mà SSH đang chạy trên hệ thống từ xa."
+
+msgid "The private key in PEM format."
+msgstr "Khóa riêng ở định dạng PEM."
+
+msgid ""
+"The protocol is not supported in conjunction with a source/destination port."
+msgstr "Giao thức không được hỗ trợ khi kết hợp với cổng nguồn/đích."
+
+msgid "The public key in OpenSSH format."
+msgstr "Khóa công khai ở định dạng OpenSSH."
+
+msgid ""
+"The relative path of the folder to share. The specified folder will be "
+"created if it does not exist."
+msgstr "Đường dẫn tương đối của thư mục để chia sẻ. Thư mục được chỉ định sẽ được tạo nếu nó không tồn tại."
+
+msgid ""
+"The repository will be checked for new, removed or upgraded software "
+"packages."
+msgstr "Kho lưu trữ sẽ được kiểm tra để tìm các gói phần mềm mới, đã bị xóa hoặc đã được nâng cấp."
+
+msgid "The requested page was not found."
+msgstr "Trang yêu cầu không được tìm thấy."
+
+msgid ""
+"The retention period (in seconds) before a snapshot can be deleted. This "
+"ensures that a snapshot that has just been created cannot be deleted again "
+"immediately."
+msgstr "Thời gian giữ lại (tính bằng giây) trước khi một ảnh chụp có thể bị xóa. Điều này đảm bảo rằng một ảnh chụp vừa được tạo không thể bị xóa ngay lập tức."
+
+msgid "The server is unavailable to handle this request right now."
+msgstr "Máy chủ hiện không khả dụng để xử lý yêu cầu này."
+
+msgid "The shared folder from which the permissions are copied."
+msgstr "Thư mục chia sẻ mà từ đó quyền được sao chép."
+
+msgid "The shared folder {{ _selected[0].name }} was successfully created."
+msgstr "Thư mục chia sẻ {{ _selected[0].name }} đã được tạo thành công."
+
+msgid ""
+"The snapshot '{{ _response.name }}' has been created for the shared folder "
+"'{{ _response.sharedfolder }}'."
+msgstr "Ảnh chụp '{{ _response.name }}' đã được tạo cho thư mục chia sẻ '{{ _response.sharedfolder }}'."
+
+msgid ""
+"The source remote server, e.g. [USER@]HOST:SRC, [USER@]HOST::SRC or "
+"rsync://[USER@]HOST[:PORT]/SRC."
+msgstr "Máy chủ nguồn từ xa, ví dụ: [USER@]HOST:SRC, [USER@]HOST::SRC hoặc rsync://[USER@]HOST[:PORT]/SRC."
+
+msgid "The system will reboot now. This may take some time ..."
+msgstr "Hệ thống sẽ khởi động lại ngay bây giờ. Điều này có thể mất một chút thời gian ..."
+
+msgid "The users that are allowed to access this module."
+msgstr "Các người dùng được phép truy cập vào module này."
+
+msgid "The value does not match the pattern /{{ pattern }}/."
+msgstr "Giá trị không khớp với mẫu /{{ pattern }}/."
+
+msgid ""
+"The value must be one of the slave network interfaces {{ slaves | join(\", "
+"\") }}."
+msgstr "Giá trị phải là một trong các giao diện mạng slave {{ slaves | join(\", \") }}."
+
+msgid "The value must be one of the slave network interfaces."
+msgstr "Giá trị phải là một trong các giao diện mạng slave."
+
+msgid "The workgroup the server will appear to be in when queried by clients."
+msgstr "Nhóm làm việc mà máy chủ sẽ xuất hiện khi được yêu cầu bởi các khách hàng."
+
+msgid "There are no notifications."
+msgstr "Không có thông báo nào."
+
+msgid ""
+"These settings are used by the services to configure the access rights for "
+"the group \"{{ _routeParams.name }}\". Please note that these settings have "
+"no effect on file system permissions."
+msgstr "Các thiết lập này được các dịch vụ sử dụng để cấu hình quyền truy cập cho nhóm \"{{ _routeParams.name }}\". Lưu ý rằng các thiết lập này không ảnh hưởng đến quyền của hệ thống tệp."
+
+msgid ""
+"These settings are used by the services to configure the access rights for "
+"the user \"{{ _routeParams.name }}\". Please note that these settings have "
+"no effect on file system permissions."
+msgstr "Các thiết lập này được các dịch vụ sử dụng để cấu hình quyền truy cập cho người dùng \"{{ _routeParams.name }}\". Lưu ý rằng các thiết lập này không ảnh hưởng đến quyền của hệ thống tệp."
+
+msgid ""
+"These settings are used by the services to configure the user and group "
+"access rights. Please note that these settings have no effect on file system"
+" permissions."
+msgstr "Các thiết lập này được các dịch vụ sử dụng để cấu hình quyền truy cập của người dùng và nhóm. Lưu ý rằng các thiết lập này không ảnh hưởng đến quyền của hệ thống tệp."
+
+msgid ""
+"This controls whether this share is seen in the list of available shares in "
+"a net view and in the browse list."
+msgstr "Điều này kiểm soát xem chia sẻ này có được thấy trong danh sách các chia sẻ có sẵn trong một cái nhìn mạng và trong danh sách duyệt hay không."
+
+msgid ""
+"This field contains invalid characters, e.g. a blank or \"/[]:+|<>=;,*? "
+"character."
+msgstr "Trường này chứa các ký tự không hợp lệ, ví dụ: một ký tự trống hoặc ký tự \"/[]:+|<>=;,*?."
+
+msgid ""
+"This field contains invalid characters, only alphanumeric characters and "
+"underscore are allowed."
+msgstr "Trường này chứa các ký tự không hợp lệ, chỉ các ký tự chữ số và gạch dưới được phép."
+
+msgid ""
+"This field is automatically filled with the subject of the certificate if "
+"left blank."
+msgstr "Trường này sẽ được tự động điền bằng đối tượng của chứng chỉ nếu để trống."
+
+msgid "This field is required."
+msgstr "Trường này là bắt buộc."
+
+msgid "This field must have the format <hh:mm:ss>."
+msgstr "Trường này phải có định dạng <hh:mm:ss>."
+
+msgid "This field should be an IP network address in CIDR notation."
+msgstr "Trường này nên là địa chỉ mạng IP theo định dạng CIDR."
+
+msgid "This field should be a MAC address, e.g. 00:80:41:ae:fd:7e."
+msgstr "Trường này nên là một địa chỉ MAC, ví dụ: 00:80:41:ae:fd:7e."
+
+msgid "This field should be a domain name or an IP address."
+msgstr "Trường này nên là một tên miền hoặc một địa chỉ IP."
+
+msgid "This field should be a host name or an IP address in CIDR notation."
+msgstr "Trường này nên là một tên máy chủ hoặc một địa chỉ IP theo định dạng CIDR."
+
+msgid "This field should be a list of IP addresses separated by <,> or <;>."
+msgstr "Trường này nên là một danh sách các địa chỉ IP được phân tách bởi <,> hoặc <;>."
+
+msgid ""
+"This field should be a list of domain names or IP addresses separated by <,>"
+" or <;>."
+msgstr "Trường này nên là một danh sách các tên miền hoặc địa chỉ IP được phân tách bởi <,> hoặc <;>."
+
+msgid "This field should be a list of domain names or IP addresses."
+msgstr "Trường này nên là một danh sách các tên miền hoặc địa chỉ IP."
+
+msgid ""
+"This field should be a list of host names or IP addresses in CIDR notation "
+"separated by <,> or <;>."
+msgstr "Trường này nên là một danh sách các tên máy chủ hoặc địa chỉ IP theo định dạng CIDR được phân tách bởi <,> hoặc <;>."
+
+msgid ""
+"This field should be a netmask within the range 128.0.0.0 - 255.255.255.252."
+msgstr "Trường này nên là một mặt nạ mạng trong khoảng từ 128.0.0.0 đến 255.255.255.252."
+
+msgid "This field should be a network port in the range of 1 to 65535."
+msgstr "Trường này nên là một cổng mạng trong khoảng từ 1 đến 65535."
+
+msgid "This field should be a valid IPv4 address."
+msgstr "Trường này nên là một địa chỉ IPv4 hợp lệ."
+
+msgid "This field should be a valid IPv6 address."
+msgstr "Trường này nên là một địa chỉ IPv6 hợp lệ."
+
+msgid "This field should be an integer."
+msgstr "Trường này nên là một số nguyên."
+
+msgid "This field should be between {{ min }} and {{ max }}."
+msgstr "Trường này nên nằm trong khoảng {{ min }} và {{ max }}."
+
+msgid "This field should be no more than {{ max }} characters long."
+msgstr "Trường này không nên dài hơn {{ max }} ký tự."
+
+msgid "This field should be no less than {{ min }} characters long."
+msgstr "Trường này không nên ngắn hơn {{ min }} ký tự."
+
+msgid "This field should be unique."
+msgstr "Trường này nên là duy nhất."
+
+msgid ""
+"This may take a few minutes. Please wait for the process to complete..."
+msgstr "Điều này có thể mất vài phút. Vui lòng chờ quá trình hoàn tất..."
+
+msgid "This will create a recycle bin for each user home directory."
+msgstr "Điều này sẽ tạo một thùng rác cho mỗi thư mục cá nhân của người dùng."
+
+msgid "This will create a recycle bin for the share."
+msgstr "Điều này sẽ tạo một thùng rác trong chia sẻ."
+
+msgid "Threshold"
+msgstr "Ngưỡng"
+
+msgid "Thursday"
+msgstr "Thứ Năm"
+
+msgid "Time Machine support"
+msgstr "Hỗ trợ Time Machine"
+
+msgid "Time of execution"
+msgstr "Thời gian thực hiện"
+
+msgid "Time server"
+msgstr "Máy chủ thời gian"
+
+msgid "Time servers"
+msgstr "Các máy chủ thời gian"
+
+msgid "Time zone"
+msgstr "Múi giờ"
+
+msgid "Tip"
+msgstr "Mẹo"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Total"
+msgstr "Tổng"
+
+msgid ""
+"Transfer modification times along with the files and update them on the "
+"remote system."
+msgstr "Chuyển đổi thời gian sửa đổi cùng với các tệp và cập nhật chúng trên hệ thống từ xa."
+
+msgid "Transmit Hash Policy"
+msgstr "Chính sách truyền băm"
+
+msgid "Transport encryption"
+msgstr "Mã hóa giao thức"
+
+msgid "Trial run"
+msgstr "Chạy thử"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad và Tobago"
+
+msgid "Tuesday"
+msgstr "Thứ Ba"
+
+msgid "Tunisia"
+msgstr "Tunisia"
+
+msgid "Turkey"
+msgstr "Thổ Nhĩ Kỳ"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgid "Turks and Caicos Islands"
+msgstr "Quần đảo Turks và Caicos"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Type"
+msgstr "Loại"
+
+msgid "U.S. Miscellaneous Pacific Islands"
+msgstr "Các đảo Thái Bình Dương khác của Mỹ"
+
+msgid "U.S. Virgin Islands"
+msgstr "Quần đảo Virgin của Mỹ"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "UID"
+msgstr "UID"
+
+msgid "UNKNOWN"
+msgstr "KHÔNG XÁC ĐỊNH"
+
+msgid "UUID"
+msgstr "UUID"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "Undo"
+msgstr "Hoàn tác"
+
+msgid "Uninstall"
+msgstr "Gỡ cài đặt"
+
+msgid "Uninstall plugin"
+msgstr "Gỡ cài đặt plugin"
+
+msgid "Union of Soviet Socialist Republics"
+msgstr "Liên bang Cộng hòa Xã hội chủ nghĩa Xô Viết"
+
+msgid "Unit"
+msgstr "Đơn vị"
+
+msgid "United Arab Emirates"
+msgstr "Các Tiểu vương quốc Ả Rập Thống nhất"
+
+msgid "United Kingdom"
+msgstr "Vương quốc Anh"
+
+msgid "United States"
+msgstr "Hoa Kỳ"
+
+msgid "United States Minor Outlying Islands"
+msgstr "Các đảo nhỏ xa xôi của Hoa Kỳ"
+
+msgid "Unknown"
+msgstr "Không xác định"
+
+msgid "Unmount"
+msgstr "Demonter"
+
+msgid "Unrestricted"
+msgstr "Không hạn chế"
+
+msgid "Up"
+msgstr "Lên"
+
+msgid "Up delay"
+msgstr "Độ trễ khởi động"
+
+msgid "Update Management"
+msgstr "Quản lý cập nhật"
+
+msgid "Update the destination ACLs to be the same as the source ACLs."
+msgstr "Cập nhật các ACL của đích để giống như các ACL của nguồn."
+
+msgid ""
+"Update the destination extended attributes to be the same as the local ones."
+msgstr "Cập nhật các thuộc tính mở rộng của đích để giống như các thuộc tính địa phương."
+
+msgid "Updated NFS settings."
+msgstr "Cài đặt NFS đã được cập nhật."
+
+msgid "Updated NFS share."
+msgstr "Chia sẻ NFS đã được cập nhật."
+
+msgid "Updated Rsync Server settings."
+msgstr "Cài đặt máy chủ Rsync đã được cập nhật."
+
+msgid "Updated Rsync server module \"{{ name }}\"."
+msgstr "Module máy chủ Rsync \"{{ name }}\" đã được cập nhật."
+
+msgid "Updated Rsync task."
+msgstr "Nhiệm vụ Rsync đã được cập nhật."
+
+msgid "Updated SMB/CIFS settings."
+msgstr "Cài đặt SMB/CIFS đã được cập nhật."
+
+msgid "Updated SMB/CIFS share."
+msgstr "Chia sẻ SMB/CIFS đã được cập nhật."
+
+msgid "Updated SSH certificate."
+msgstr "Chứng chỉ SSH đã được cập nhật."
+
+msgid "Updated SSH settings."
+msgstr "Cài đặt SSH đã được cập nhật."
+
+msgid "Updated VLAN network connection \"{{ devicename }}\"."
+msgstr "Kết nối mạng VLAN \"{{ devicename }}\" đã được cập nhật."
+
+msgid "Updated access control list of shared folder."
+msgstr "Danh sách kiểm soát truy cập của thư mục chia sẻ đã được cập nhật."
+
+msgid "Updated bond network connection \"{{ devicename }}\"."
+msgstr "Kết nối mạng bond \"{{ devicename }}\" đã được cập nhật."
+
+msgid "Updated bridge network connection \"{{ devicename }}\"."
+msgstr "Kết nối mạng bridge \"{{ devicename }}\" đã được cập nhật."
+
+msgid "Updated dashboard settings."
+msgstr "Cài đặt bảng điều khiển đã được cập nhật."
+
+msgid "Updated date & time settings."
+msgstr "Cài đặt ngày & giờ đã được cập nhật."
+
+msgid "Updated file system settings."
+msgstr "Cài đặt hệ thống tệp đã được cập nhật."
+
+msgid "Updated firewall rule."
+msgstr "Quy tắc tường lửa đã được cập nhật."
+
+msgid "Updated firewall rules."
+msgstr "Quy tắc tường lửa đã được cập nhật."
+
+msgid "Updated group \"{{ name }}\"."
+msgstr "Nhóm \"{{ name }}\" đã được cập nhật."
+
+msgid "Updated monitoring settings."
+msgstr "Cài đặt giám sát đã được cập nhật."
+
+msgid "Updated network settings."
+msgstr "Cài đặt mạng đã được cập nhật."
+
+msgid "Updated notification event settings."
+msgstr "Cài đặt sự kiện thông báo đã được cập nhật."
+
+msgid "Updated notification settings."
+msgstr "Cài đặt thông báo đã được cập nhật."
+
+msgid "Updated password."
+msgstr "Mật khẩu đã được cập nhật."
+
+msgid "Updated permissions of group \"{{ name }}\"."
+msgstr "Quyền của nhóm \"{{ name }}\" đã được cập nhật."
+
+msgid "Updated permissions of shared folder."
+msgstr "Quyền của thư mục chia sẻ đã được cập nhật."
+
+msgid "Updated permissions of user \"{{ name }}\"."
+msgstr "Quyền cho người dùng \"{{ name }}\" đã được cập nhật."
+
+msgid "Updated power management settings."
+msgstr "Cài đặt quản lý năng lượng đã được cập nhật."
+
+msgid "Updated proxy settings."
+msgstr "Cài đặt proxy đã được cập nhật."
+
+msgid "Updated quota."
+msgstr "Quy định đã được cập nhật."
+
+msgid "Updated remote system-logs settings."
+msgstr "Cài đặt nhật ký hệ thống từ xa đã được cập nhật."
+
+msgid "Updated scheduled task."
+msgstr "Nhiệm vụ đã được lập lịch đã được cập nhật."
+
+msgid "Updated settings."
+msgstr "Cài đặt đã được cập nhật."
+
+msgid "Updated shared folder."
+msgstr "Thư mục chia sẻ đã được cập nhật."
+
+msgid "Updated update management settings."
+msgstr "Cài đặt quản lý cập nhật đã được cập nhật."
+
+msgid "Updated user \"{{ name }}\"."
+msgstr "Người dùng \"{{ name }}\" đã được cập nhật."
+
+msgid "Updated user profile."
+msgstr "Hồ sơ người dùng đã được cập nhật."
+
+msgid "Updated wired network connection \"{{ devicename }}\"."
+msgstr "Kết nối mạng có dây \"{{ devicename }}\" đã được cập nhật."
+
+msgid "Updated wireless network connection \"{{ devicename }}\"."
+msgstr "Kết nối mạng không dây \"{{ devicename }}\" đã được cập nhật."
+
+msgid "Updated workbench settings."
+msgstr "Cài đặt bàn làm việc đã được cập nhật."
+
+msgid "Updates"
+msgstr "Cập nhật"
+
+msgid "Updates Available"
+msgstr "Cập nhật có sẵn"
+
+msgid "Updates available"
+msgstr "Cập nhật có sẵn"
+
+msgid "Upgrade system"
+msgstr "Nâng cấp hệ thống"
+
+msgid "Uptime"
+msgstr "Thời gian hoạt động"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Usage Warning Threshold"
+msgstr "Ngưỡng cảnh báo sử dụng"
+
+msgid "Use NTP server"
+msgstr "Sử dụng máy chủ NTP"
+
+msgid "Use chroot"
+msgstr "Sử dụng chroot"
+
+msgid "Use global settings"
+msgstr "Sử dụng cài đặt toàn cầu"
+
+msgid "Use sendfile"
+msgstr "Sử dụng sendfile"
+
+msgid ""
+"Use the more efficient sendfile system call for files that are exclusively "
+"oplocked. This may make more efficient use of the system CPU's and cause "
+"Samba to be faster. Samba automatically turns this off for clients that use "
+"protocol levels lower than NT LM 0.12 and when it detects a client is "
+"Windows 9x."
+msgstr "Sử dụng lệnh hệ thống sendfile hiệu quả hơn cho các tệp được khóa hoàn toàn. Điều này có thể sử dụng hiệu quả hơn CPU của hệ thống và làm cho Samba nhanh hơn. Samba tự động tắt tính năng này cho các khách hàng sử dụng các cấp độ giao thức thấp hơn NT LM 0.12 và khi phát hiện một khách hàng là Windows 9x."
+
+msgid "Use the specified WINS server."
+msgstr "Sử dụng máy chủ WINS đã chỉ định."
+
+msgid "Used"
+msgstr "Đã sử dụng"
+
+msgid "Used capacity"
+msgstr "Dung lượng đã sử dụng"
+
+msgid "User"
+msgstr "Người dùng"
+
+msgid "User Management"
+msgstr "Quản lý người dùng"
+
+msgid "User Settings"
+msgstr "Cài đặt người dùng"
+
+msgid "User home directory"
+msgstr "Thư mục cá nhân của người dùng"
+
+msgid "User name"
+msgstr "Tên người dùng"
+
+msgid "User/Group permissions"
+msgstr "Quyền của Người dùng/ Nhóm"
+
+msgid "Users"
+msgstr "Người dùng"
+
+msgid ""
+"Users must be assigned to the <em>_ssh</em> group to be able to log in via "
+"SSH."
+msgstr "Người dùng phải được phân công vào nhóm <em>_ssh</em> để có thể đăng nhập qua SSH."
+
+msgid "Utilization"
+msgstr "Sử dụng"
+
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "VLAN id"
+msgstr "ID VLAN"
+
+msgid "Valid from"
+msgstr "Có hiệu lực từ"
+
+msgid "Valid to"
+msgstr "Có hiệu lực đến"
+
+msgid "Value"
+msgstr "Giá trị"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Vatican"
+msgstr "Vatican"
+
+msgid "Vendor"
+msgstr "Nhà cung cấp"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Version"
+msgstr "Phiên bản"
+
+msgid "Versions"
+msgstr "Các phiên bản"
+
+msgid "Vietnam"
+msgstr "Việt Nam"
+
+msgid "VirtIO device"
+msgstr "Thiết bị VirtIO"
+
+msgid "WINS server"
+msgstr "Máy chủ WINS"
+
+msgid "WOL"
+msgstr "WOL"
+
+msgid "WPA2-Personal"
+msgstr "WPA2-Cá nhân"
+
+msgid "WPA3-Personal"
+msgstr "WPA3-Cá nhân"
+
+msgid "WWN"
+msgstr "WWN"
+
+msgid "Wake Island"
+msgstr "Đảo Wake"
+
+msgid "Wake-on-LAN"
+msgstr "Khởi động qua mạng (WOL)"
+
+msgid "Wallis and Futuna"
+msgstr "Wallis và Futuna"
+
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgid "Web control panel"
+msgstr "Bảng điều khiển Web"
+
+msgid "Wednesday"
+msgstr "Thứ Tư"
+
+msgid "Weekly"
+msgstr "Hàng tuần"
+
+msgid "Welcome to openmediavault"
+msgstr "Chào mừng đến với openmediavault."
+
+msgid "Western Sahara"
+msgstr "Sa mạc Sahara Tây"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Wipe"
+msgstr "Xóa"
+
+msgid "Wiping device"
+msgstr "Đang xóa thiết bị"
+
+msgid "Workbench"
+msgstr "Bảng làm việc"
+
+msgid "Workgroup"
+msgstr "Nhóm làm việc"
+
+msgid "Worst"
+msgstr "Tồi tệ nhất"
+
+msgid "Write only"
+msgstr "Chỉ ghi"
+
+msgid "Write-only"
+msgstr "Chỉ ghi"
+
+msgid "Write/Execute"
+msgstr "Ghi/Thực thi"
+
+msgid "Xen virtual disk device"
+msgstr "Thiết bị đĩa ảo Xen"
+
+msgid "Yearly"
+msgstr "Hàng năm"
+
+msgid "Yemen"
+msgstr "Yemen"
+
+msgid "Yes"
+msgstr "Có"
+
+msgid ""
+"You have made changes that have not yet been saved. Do you want to discard "
+"them?"
+msgstr "Bạn đã thực hiện các thay đổi chưa được lưu. Bạn có muốn hủy bỏ chúng không?"
+
+msgid "You must apply these changes in order for them to take effect."
+msgstr "Bạn phải áp dụng các thay đổi này để chúng có hiệu lực."
+
+msgid "Your profile"
+msgstr "Hồ sơ của bạn"
+
+msgid "Zambia"
+msgstr "Zambia"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "a day"
+msgstr "một ngày"
+
+msgid "a few seconds"
+msgstr "vài giây"
+
+msgid "a minute"
+msgstr "một phút"
+
+msgid "a month"
+msgstr "một tháng"
+
+msgid "a year"
+msgstr "một năm"
+
+msgid "an hour"
+msgstr "một giờ"
+
+msgid "in %s"
+msgstr "trong %s"
+
+msgid "n/a"
+msgstr "không áp dụng"
+
+msgid "selected"
+msgstr "đã chọn"
+
+msgid "total"
+msgstr "tổng"
+

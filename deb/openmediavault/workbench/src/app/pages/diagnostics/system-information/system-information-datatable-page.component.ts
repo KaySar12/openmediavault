@@ -83,7 +83,7 @@ export class SystemInformationDatatablePageComponent {
             name: gettext('Version'),
             value: {
               type: 'text',
-              value: notAvailable(_.get(res, 'version'))
+              value: '1.0'
             }
           },
           cpuModelName: {
