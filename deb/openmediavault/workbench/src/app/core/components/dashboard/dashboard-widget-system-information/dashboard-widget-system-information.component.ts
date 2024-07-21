@@ -45,6 +45,7 @@ export class DashboardWidgetSystemInformationComponent {
       map((data) => {
         const result = _.cloneDeep(data);
         result.uptime = dayjs().unix() - result.uptime;
+        result.version='1.0';
         return result;
       })
     );
