@@ -1,7 +1,14 @@
 
 import { Component, OnInit } from '@angular/core';
 import { OIDCService } from '~/app/shared/services/sso-oidc.service';
-import { RpcService } from '~/app/shared/services/rpc.service';
+// import { RpcService } from '~/app/shared/services/rpc.service';
+import { BlockUiService } from '~/app/shared/services/block-ui.service';
+import { AuthService } from '~/app/shared/services/auth.service';
+import { translate } from '~/app/i18n.helper';
+import { ActivatedRoute, Router } from '@angular/router';
+import { marker as gettext } from '@ngneat/transloco-keys-manager/marker';
+import * as _ from 'lodash';
+import { finalize } from 'rxjs';
 @Component({
   selector: 'oidc-callback',
   templateUrl: './oidc-callback.component.html',
@@ -9,7 +16,13 @@ import { RpcService } from '~/app/shared/services/rpc.service';
 export class CallbackComponent implements OnInit {
   code: string;
   state: string;
-  constructor(private sso: OIDCService, private rpc: RpcService) { }
+  constructor(
+    private sso: OIDCService,
+    // private rpc: RpcService,
+    private blockUiService: BlockUiService,
+    private authService: AuthService,
+    private activatedRoute: ActivatedRoute,
+    private router: Router,) { }
 
   ngOnInit() {
     const fullUrl = window.location.href;
@@ -38,32 +51,21 @@ export class CallbackComponent implements OnInit {
         console.log('User Data:', user);
 
       });
-      this.handleUserResponse(response)
+    this.handleUserResponse(response)
   }
 
   handleUserResponse(response: any) {
-    debugger;
-    this.rpc.request(
-      'session',
-      'login',
-      {
-        "username": "nextzen",
-        "password": "Smartyourlife123@*"
-      }
-    ).subscribe({
-      next: (existUser) => {
-        console.log('existUser:', existUser);
-        // Handle the user data here
-        // For example, update the component's view model
-      },
-      error: (error) => {
-        console.error('Error getting user:', error);
-        // Handle any errors
-      },
-      complete: () => {
-        console.log('Request completed');
-        // Optionally, handle when the observable completes
-      }
-    });
+    this.blockUiService.start(translate(gettext('Please wait ...')));
+    this.authService
+      .login('nextzen', 'Smartyourlife123@*')
+      .pipe(
+        finalize(() => {
+          this.blockUiService.stop();
+        })
+      )
+      .subscribe(() => {
+        const url = _.get(this.activatedRoute.snapshot.queryParams, 'returnUrl', '/dashboard');
+        this.router.navigate([url]);
+      });
   }
 }

@@ -33,16 +33,19 @@ export type SessionData = {
   providedIn: 'root'
 })
 export class AuthService {
-  constructor(private authSessionService: AuthSessionService, private rpcService: RpcService) {}
+  constructor(private authSessionService: AuthSessionService, private rpcService: RpcService) { }
 
   login(username: string, password: string): Observable<SessionData> {
+    debugger;
     return this.rpcService
       .request('Session', 'login', {
         username,
         password
       })
       .pipe(
-        tap((res: SessionData) => {
+        tap((res: any) => {
+          console.log('Session Login', res);// Get all Set-Cookie headers
+          // Process the cookies as needed (e.g., store them in a service or local storage)
           this.authSessionService.set(res.username, res.permissions);
         })
       );
