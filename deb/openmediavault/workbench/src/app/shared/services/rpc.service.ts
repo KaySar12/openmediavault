@@ -60,7 +60,6 @@ export class RpcService {
     rpcOptions?: any,
     maxRetries?: number
   ): Observable<any> {
-    debugger;
     const body = JSON.stringify({
       service: rpcService,
       method: rpcMethod,
