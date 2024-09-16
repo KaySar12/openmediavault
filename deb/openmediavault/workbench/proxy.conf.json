@@ -1,21 +1,33 @@
 {
   "/download.php": {
-    "target": "http://omv6box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/rpc.php": {
-    "target": "http://omv6box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/rrd.php": {
-    "target": "http://omv6box.local/",
+    "target": "http://10.0.0.4:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/assets/**/*.json": {
-    "target": "http://omv6box.local/",
+    "target": "http://10.0.0.4:1081/",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/application/o/*": {
+    "target": "http://accessmanager.local/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/api/v3/*": {
+    "target": "http://accessmanager.local/",
+    "changeOrigin": true,
     "secure": false,
     "logLevel": "debug"
   }

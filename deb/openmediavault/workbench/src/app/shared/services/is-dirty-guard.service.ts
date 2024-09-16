@@ -38,8 +38,9 @@ export class IsDirtyGuardService implements CanDeactivate<Dirty> {
     currentState: RouterStateSnapshot,
     nextState?: RouterStateSnapshot
   ): Observable<boolean> | Promise<boolean> | boolean {
+    debugger;
     if (
-      ['/404', '/503', '/guruMeditation', '/login', '/reload'].includes(nextState.url) ||
+      ['/404', '/503', '/guruMeditation', '/login', '/reload','/sso'].includes(nextState.url) ||
       nextState.url.startsWith('/externalRedirect/')
     ) {
       return true;

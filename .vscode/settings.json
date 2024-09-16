@@ -13,5 +13,11 @@
 		"--skip-string-normalization"
 	],
 	"python.linting.pylintEnabled": true,
-	"python.linting.pylintArgs": ["--rcfile", "${workspaceFolder}/.pylintrc"]
+	"python.linting.pylintArgs": [
+		"--rcfile",
+		"${workspaceFolder}/.pylintrc"
+	],
+	"cSpell.words": [
+		"OIDC"
+	]
 }

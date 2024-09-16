@@ -36,6 +36,7 @@ import { HttpErrorInterceptorService } from '~/app/shared/services/http-error-in
 import { TitleService } from '~/app/shared/services/title.service';
 import { SharedModule } from '~/app/shared/shared.module';
 import { TranslocoRootModule } from '~/app/transloco-root.module';
+import { AuthConfigModule } from './auth-config.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -51,7 +52,8 @@ import { TranslocoRootModule } from '~/app/transloco-root.module';
     }),
     TranslocoRootModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthConfigModule,
   ],
   providers: [
     {
@@ -107,5 +109,5 @@ import { TranslocoRootModule } from '~/app/transloco-root.module';
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(public titleService: TitleService) {}
+  constructor(public titleService: TitleService) { }
 }

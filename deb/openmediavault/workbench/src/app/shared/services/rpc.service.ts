@@ -42,7 +42,7 @@ export type RpcBgResponse = {
 export class RpcService {
   private url = 'rpc.php';
 
-  constructor(private http: HttpClient, private ngZone: NgZone) {}
+  constructor(private http: HttpClient, private ngZone: NgZone) { }
 
   /**
    * Execute the specified RPC.
@@ -60,6 +60,7 @@ export class RpcService {
     rpcOptions?: any,
     maxRetries?: number
   ): Observable<any> {
+    debugger;
     const body = JSON.stringify({
       service: rpcService,
       method: rpcMethod,
@@ -96,7 +97,7 @@ export class RpcService {
       map((res: RpcBgResponse): string => {
         try {
           return JSON.parse(res.output);
-        } catch (e) {}
+        } catch (e) { }
         return res.output;
       })
     );

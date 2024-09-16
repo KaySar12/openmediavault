@@ -30,8 +30,9 @@ import {
 export class AppComponent {
   constructor(
     private prefersColorSchemeService: PrefersColorSchemeService,
-    private renderer2: Renderer2
+    private renderer2: Renderer2,
   ) {
+
     this.prefersColorSchemeService.change$.subscribe(
       (prefersColorScheme: PrefersColorScheme): void => {
         if (prefersColorScheme === 'dark') {
@@ -42,4 +43,5 @@ export class AppComponent {
       }
     );
   }
+
 }

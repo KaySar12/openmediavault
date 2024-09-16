@@ -27,13 +27,15 @@ import { AboutPageComponent } from '~/app/core/pages/about-page/about-page.compo
 import { BlankPageComponent } from '~/app/core/pages/blank-page/blank-page.component';
 import { GuruMeditationPageComponent } from '~/app/core/pages/guru-meditation-page/guru-meditation-page.component';
 import { LoginPageComponent } from '~/app/core/pages/login-page/login-page.component';
+import { OIDC } from '~/app/core/pages/login-page/login-external.component';
 import { NavigationPageComponent } from '~/app/core/pages/navigation-page/navigation-page.component';
 import { ShutdownPageComponent } from '~/app/core/pages/shutdown-page/shutdown-page.component';
 import { StandbyPageComponent } from '~/app/core/pages/standby-page/standby-page.component';
 import { RouteConfigService } from '~/app/core/services/route-config.service';
 import { AuthGuardService } from '~/app/shared/services/auth-guard.service';
+import { CallbackComponent } from './core/pages/login-page/oidc-callback-component';
 
-const routes: Routes = [
+const routesForHashMode: Routes = [
   {
     path: '',
     component: WorkbenchLayoutComponent,
@@ -102,6 +104,14 @@ const routes: Routes = [
     ]
   },
   {
+    path: 'sso',
+    component: OIDC
+  },
+  {
+    path: 'callback',
+    component: CallbackComponent
+  },
+  {
     path: '',
     component: BlankLayoutComponent,
     children: [
@@ -140,11 +150,10 @@ const routes: Routes = [
   },
   { path: '**', redirectTo: '/404' }
 ];
-
 @NgModule({
   exports: [RouterModule],
   imports: [
-    RouterModule.forRoot(routes, {
+    RouterModule.forRoot(routesForHashMode, {
       useHash: true
     })
   ],
@@ -181,4 +190,4 @@ const routes: Routes = [
     }
   ]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

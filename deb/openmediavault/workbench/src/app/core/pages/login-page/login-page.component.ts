@@ -15,9 +15,10 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { marker as gettext } from '@ngneat/transloco-keys-manager/marker';
+import { OidcSecurityService } from 'angular-auth-oidc-client';
 import * as _ from 'lodash';
 import { finalize } from 'rxjs/operators';
 
@@ -31,16 +32,17 @@ import { AuthService } from '~/app/shared/services/auth.service';
 import { BlockUiService } from '~/app/shared/services/block-ui.service';
 import { DialogService } from '~/app/shared/services/dialog.service';
 import { LocaleService } from '~/app/shared/services/locale.service';
-
 @Component({
   selector: 'omv-login-page',
   templateUrl: './login-page.component.html',
   styleUrls: ['./login-page.component.scss']
 })
 export class LoginPageComponent implements OnInit {
+  private readonly oidcSecurityService = inject(OidcSecurityService);
+  configuration$ = this.oidcSecurityService.getConfiguration('12');
+  isAuthenticated = false;
   public currentLocale: string;
   public locales: Record<string, string> = {};
-
   public config: FormPageConfig = {
     id: 'login',
     fields: [
@@ -74,9 +76,9 @@ export class LoginPageComponent implements OnInit {
         execute: {
           type: 'click',
           click: this.onLogin.bind(this)
-        }
+        },
       }
-    ]
+    ],
   };
 
   constructor(
@@ -84,18 +86,31 @@ export class LoginPageComponent implements OnInit {
     private authService: AuthService,
     private blockUiService: BlockUiService,
     private dialogService: DialogService,
-    private router: Router
+    private router: Router,
+
   ) {
     this.currentLocale = LocaleService.getCurrentLocale();
     this.locales = LocaleService.getSupportedLocales();
   }
 
   ngOnInit(): void {
+    var configuration = this.oidcSecurityService.getConfiguration();
+    console.log(configuration)
+    this.oidcSecurityService.isAuthenticated$.subscribe(
+      ({ isAuthenticated }) => {
+        this.isAuthenticated = isAuthenticated;
+
+        console.info('authenticated: ', isAuthenticated);
+      }
+    );
     this.blockUiService.resetGlobal();
     // Ensure all currently opened dialogs are closed.
     this.dialogService.closeAll();
   }
 
+  async singleSignOn(): Promise<void> {
+    this.oidcSecurityService.authorize('12')
+  }
   onLogin(buttonConfig: FormPageButtonConfig, values: Record<string, any>) {
     this.blockUiService.start(translate(gettext('Please wait ...')));
     this.authService

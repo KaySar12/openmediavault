@@ -104,7 +104,9 @@ $omv-dark-theme: mat.define-dark-theme(
 .omv-h-100, .omv-h-full {
   height: 100% !important;
 }
-
+.omv-h-80, .omv-h-full {
+  height: 80% !important;
+}
 .omv-h-auto {
   height: auto;
 }
