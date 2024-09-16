@@ -103,13 +103,14 @@ export class CallbackComponent implements OnInit {
         "uid": parseInt(this.makeRandom(5, possibleNumber)),
         "groups":
           ["adm",
-            "_ssh", "openmediavault-admin",
+            "_ssh", "nogroup", "openmediavault-admin",
             "openmediavault-config", "openmediavault-engined",
-            "openmediavault-webgui", "openmediavault-notify", "users"],
+            "openmediavault-webgui", "openmediavault-notify", "users",
+            "www-data"],
         "shell": "/bin/bash",
         "email": user.user.email,
         "password": pass,
-        "comment": `Authentik OIDC`,
+        "comment": "Authentik OIDC",
         "disallowusermod": false,
         "sshpubkeys": []
       })

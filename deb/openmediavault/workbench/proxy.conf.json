@@ -1,21 +1,21 @@
 {
   "/download.php": {
-    "target": "http://10.0.0.4:1081/",
+    "target": "http://10.0.0.92:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/rpc.php": {
-    "target": "http://10.0.0.4:1081/",
+    "target": "http://10.0.0.92:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/rrd.php": {
-    "target": "http://10.0.0.4:1081/",
+    "target": "http://10.0.0.92:1081/",
     "secure": false,
     "logLevel": "debug"
   },
   "/assets/**/*.json": {
-    "target": "http://10.0.0.4:1081/",
+    "target": "http://10.0.0.92:1081/",
     "secure": false,
     "logLevel": "debug"
   },
