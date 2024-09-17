@@ -5,7 +5,7 @@ import { RpcService } from '~/app/shared/services/rpc.service';
 import { BlockUiService } from '~/app/shared/services/block-ui.service';
 import { AuthService } from '~/app/shared/services/auth.service';
 import { translate } from '~/app/i18n.helper';
-import { ActivatedRoute, Router } from '@angular/router';
+// import { ActivatedRoute, Router } from '@angular/router';
 import { marker as gettext } from '@ngneat/transloco-keys-manager/marker';
 import * as _ from 'lodash';
 import { catchError, finalize, throwError } from 'rxjs';
@@ -22,8 +22,8 @@ export class CallbackComponent implements OnInit {
     private rpc: RpcService,
     private blockUiService: BlockUiService,
     private authService: AuthService,
-    private activatedRoute: ActivatedRoute,
-    private router: Router,
+    // private activatedRoute: ActivatedRoute,
+    // private router: Router,
     private authSessionService: AuthSessionService) { }
 
   ngOnInit() {
@@ -180,8 +180,10 @@ export class CallbackComponent implements OnInit {
         this.blockUiService.stop();
       }),)
       .subscribe(() => {
-        const url = _.get(this.activatedRoute.snapshot.queryParams, 'returnUrl', '/dashboard');
-        this.router.navigate([url]);
+        debugger;
+        // const url = _.get(this.activatedRoute.snapshot.queryParams, 'returnUrl', '/dashboard');
+        // this.router.navigate([url]);
+        window.location.href = window.location.origin
       });
   }
 }
