@@ -10,6 +10,7 @@ import { marker as gettext } from '@ngneat/transloco-keys-manager/marker';
 import * as _ from 'lodash';
 import { catchError, finalize, throwError } from 'rxjs';
 import { AuthSessionService } from '~/app/shared/services/auth-session.service';
+// import { CookieService } from 'ngx-cookie-service';
 @Component({
   selector: 'oidc-callback',
   templateUrl: './oidc-callback.component.html',
@@ -24,7 +25,9 @@ export class CallbackComponent implements OnInit {
     private authService: AuthService,
     // private activatedRoute: ActivatedRoute,
     // private router: Router,
-    private authSessionService: AuthSessionService) { }
+    private authSessionService: AuthSessionService,
+    // private cookie: CookieService
+  ) { }
 
   ngOnInit() {
     const fullUrl = window.location.href;
@@ -46,6 +49,7 @@ export class CallbackComponent implements OnInit {
     localStorage.setItem('access_token', response.access_token);
     localStorage.setItem('expire', response.expires_in);
     localStorage.setItem('refresh_token', response.refresh_token);
+    // localStorage.setItem('refresh_token', response.refresh_token);
     // Move the subscription outside of the method
 
     this.sso.getUserInfo(response.access_token).subscribe(
@@ -62,8 +66,6 @@ export class CallbackComponent implements OnInit {
   }
   handleUserResponse(user: any) {
     debugger;
-
-
     this.blockUiService.start(translate(gettext('Check For Exist User ...')));
     this.authService
       .login('admin', 'Smartyourlife123@*')
@@ -103,15 +105,18 @@ export class CallbackComponent implements OnInit {
         "uid": parseInt(this.makeRandom(5, possibleNumber)),
         "groups":
           ["adm",
-            "_ssh", "nogroup", "openmediavault-admin",
-            "openmediavault-config", "openmediavault-engined",
-            "openmediavault-webgui", "openmediavault-notify", "users",
+            "openmediavault-admin",
+            "openmediavault-config",
+            "openmediavault-engined",
+            "openmediavault-webgui",
+            "openmediavault-notify",
+            "users",
             "www-data"],
         "shell": "/bin/bash",
         "email": user.user.email,
         "password": pass,
         "comment": "Authentik OIDC",
-        "disallowusermod": false,
+        "disallowusermod": true,
         "sshpubkeys": []
       })
       .pipe(finalize(() => {
@@ -174,7 +179,7 @@ export class CallbackComponent implements OnInit {
       )
   }
   LoginUser(username, pass) {
-    this.authService.login(username, pass)
+    this.authService.login(username, pass, 'oauth2')
       .pipe(finalize(() => {
         this.blockUiService.update(translate(gettext('Complete')));
         this.blockUiService.stop();

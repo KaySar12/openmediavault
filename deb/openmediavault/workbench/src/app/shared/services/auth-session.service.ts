@@ -23,13 +23,20 @@ import { Permissions, Roles } from '~/app/shared/models/permissions.model';
   providedIn: 'root'
 })
 export class AuthSessionService {
-  constructor() {}
+  constructor() { }
 
-  set(username: string, permissions: Permissions): void {
+  set(username: string, permissions: Permissions, loginMethod?: string): void {
     sessionStorage.setItem('username', username);
     sessionStorage.setItem('permissions', Permissions.toJSON(permissions));
+    loginMethod ? sessionStorage.setItem('login-method', loginMethod) : sessionStorage.setItem('login-method', 'local');
+    sessionStorage.setItem('session', 'valid')
   }
-
+  getLoginMethod(): string | null {
+    return sessionStorage.getItem('login-method');
+  }
+  isInvalidateSession() {
+    return sessionStorage.getItem('session');
+  }
   getUsername(): string | null {
     return sessionStorage.getItem('username');
   }

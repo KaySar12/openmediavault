@@ -18,14 +18,7 @@ export class OIDC implements OnInit {
         }
       );
 
-      this.oidcSecurityService
-        .checkAuth()
-        .subscribe(({ isAuthenticated, userData, accessToken, errorMessage }) => {
-          console.log(isAuthenticated);
-          console.log(userData);
-          console.log(accessToken);
-          console.log(errorMessage);
-        });
+      this.oidcSecurityService.authorize()
 
     } catch (error) {
       console.error('OIDC initialization error:', error);

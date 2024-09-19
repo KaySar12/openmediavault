@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { OidcSecurityService } from 'angular-auth-oidc-client';
 import { catchError, map, Observable, switchMap, tap, throwError } from 'rxjs';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -33,8 +32,36 @@ export class OIDCService {
       })
     );
   }
+  validateToken(token: string, configId: string): Observable<any> {
+    debugger;
+    return this.oidcSecurityService.getConfiguration(configId).pipe(
+      switchMap(config => {
+        if (!config || !config.clientId) {
+          throw new Error('Invalid OIDC configuration');
+        }
+        const body = new URLSearchParams({
+          token: token
+        });
+
+        return this.http.post(config.authWellknownEndpoints.introspectionEndpoint,
+          body.toString(), {
+          responseType: 'text',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': 'Basic ' + btoa(config.clientId + ':' + config.customParamsAuthRequest?.client_secret.toString())
+          }
+        }).pipe(map((response: string) => {
+          try {
+            return JSON.parse(response);
+          } catch (error) {
+            throw new Error('Token parsing failed');
+          }
+        }))
+      })
+    )
+  }
   exchangeCodeForToken(code: string, state: string, configId: string): Observable<any> {
-    const tokenEndpoint = './application/o/token/';
+
     return this.oidcSecurityService.getConfiguration(configId).pipe(
       switchMap(config => {
         if (!config || !config.clientId) {
@@ -45,11 +72,12 @@ export class OIDCService {
           code: code,
           redirect_uri: config.redirectUrl,
           client_id: config.clientId,  // Access clientId from the config
+          client_secret: config.customParamsAuthRequest?.client_secret.toString(),
           state: state
         });
 
         // Perform the token exchange
-        return this.http.post(tokenEndpoint, body.toString(), {
+        return this.http.post(config.authWellknownEndpoints.tokenEndpoint, body.toString(), {
           responseType: 'text',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
         }).pipe(
@@ -71,7 +99,6 @@ export class OIDCService {
     );
   }
   renewAccessToken(refresh_token: string, configId: string): Observable<any> {
-    const tokenEndpoint = './application/o/token/';
     return this.oidcSecurityService.getConfiguration(configId).pipe(
       switchMap(config => {
         if (!config || !config.clientId) {
@@ -81,10 +108,10 @@ export class OIDCService {
           grant_type: 'refresh_token',
           refresh_token: refresh_token,
           client_id: config.clientId,
-
+          client_secret: config.customParamsAuthRequest?.client_secret.toString(),
         });
         // Perform the token exchange
-        return this.http.post(tokenEndpoint, body.toString(), {
+        return this.http.post(config.authWellknownEndpoints.tokenEndpoint, body.toString(), {
           responseType: 'text',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
         }).pipe(

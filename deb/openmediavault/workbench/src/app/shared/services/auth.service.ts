@@ -35,7 +35,7 @@ export type SessionData = {
 export class AuthService {
   constructor(private authSessionService: AuthSessionService, private rpcService: RpcService) { }
 
-  login(username: string, password: string): Observable<SessionData> {
+  login(username: string, password: string, loginMethod?: string): Observable<SessionData> {
     debugger;
     return this.rpcService
       .request('Session', 'login', {
@@ -46,7 +46,7 @@ export class AuthService {
         tap((res: any) => {
           console.log('Session Login', res);// Get all Set-Cookie headers
           // Process the cookies as needed (e.g., store them in a service or local storage)
-          this.authSessionService.set(res.username, res.permissions);
+          this.authSessionService.set(res.username, res.permissions, loginMethod);
         })
       );
   }
@@ -65,6 +65,9 @@ export class AuthService {
   }
 
   isLoggedIn(): boolean {
-    return !_.isNull(this.authSessionService.getUsername());
+    if (this.authSessionService.getLoginMethod() === 'local') {
+      return !_.isNull(this.authSessionService.getUsername());
+    }
+    return !_.isNull(this.authSessionService.isInvalidateSession());
   }
 }
